@@ -8,6 +8,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from scrape_craigslist import CraigslistScraper
+from scrape_lambrou import LambrouScraper
+from scrape_ithacaestates import IthacaEstatesScraper
+from scrape_appfolio import AppFolioScraper, APPFOLIO_PORTALS
 from normalize_data import process_all_raw_data, deduplicate_listings, save_processed_data
 from geocode import add_coordinates_and_distances
 
@@ -38,11 +41,13 @@ def scrape_all_sources():
 
     sources = {
         'craigslist': CraigslistScraper(),
-        # Additional sources can be added here
-        # 'facebook': FacebookScraper(),
-        # 'airbnb': AirbnbScraper(),
-        # 'google_maps': GoogleMapsScraper(),
+        'lambrou': LambrouScraper(),
+        'ithacaestates': IthacaEstatesScraper(),
     }
+    # AppFolio-powered property managers (PPM Homes, Travis Hyde, ...).
+    for portal, name in APPFOLIO_PORTALS.items():
+        sources[name] = AppFolioScraper(portal, name)
+    # Sites blocking automated access (HTTP 403): apartments.com, zillow.com
 
     all_listings = []
     for source_name, scraper in sources.items():
