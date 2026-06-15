@@ -56,6 +56,10 @@ def scrape_all_sources():
     # Sites needing a headless browser / other platforms (not yet supported):
     #   Lux & Lofts (Entrata), Cayuga Place (RealPage), Harold's Square (Buildium),
     #   Collegetown Terrace (403), Heritage Park (greatcommunities portal)
+    # Ithaca Renting Company: scraper exists (scrape_ithacarenting.py) but its
+    #   HTML does not expose per-unit address/price reliably, so it is excluded
+    #   to keep the database accurate. Eddygate & Seneca Way are covered via
+    #   Travis Hyde (their manager).
 
     all_listings = []
     for source_name, scraper in sources.items():

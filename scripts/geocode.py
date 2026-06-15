@@ -73,9 +73,34 @@ def geocode_address(address: str, geocoder) -> Tuple[float, float]:
     return 0, 0
 
 
+CACHE_PATH = Path('data/geocode_cache.json')
+
+
+def _load_cache() -> dict:
+    if CACHE_PATH.exists():
+        try:
+            with open(CACHE_PATH, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            return {}
+    return {}
+
+
+def _save_cache(cache: dict):
+    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(CACHE_PATH, 'w', encoding='utf-8') as f:
+        json.dump(cache, f)
+
+
 def add_coordinates_and_distances(listings: List[Dict]) -> List[Dict]:
-    """Add coordinates and distance calculations to all listings."""
+    """Add coordinates and distance calculations to all listings.
+
+    Results are cached in data/geocode_cache.json so repeated builds do not
+    re-hit Nominatim for addresses already resolved.
+    """
     geocoder = Nominatim(user_agent="rentica_apartment_scraper")
+    cache = _load_cache()
+    dirty = 0
 
     processed = []
     for i, listing in enumerate(listings):
@@ -99,20 +124,22 @@ def add_coordinates_and_distances(listings: List[Dict]) -> List[Dict]:
             processed.append(listing)
             continue
 
-        logger.info(f"Geocoding {i+1}/{len(listings)}: {address}")
-
-        # Geocode address
-        lat, lng = geocode_address(address, geocoder)
+        # Cache hit: reuse previously resolved coordinates.
+        if address in cache:
+            lat, lng = cache[address]
+        else:
+            logger.info(f"Geocoding {i+1}/{len(listings)}: {address}")
+            lat, lng = geocode_address(address, geocoder)
+            cache[address] = [lat, lng]
+            dirty += 1
+            if dirty % 10 == 0:
+                _save_cache(cache)
+            time.sleep(1.5)  # Nominatim asks for <= 1 request per second
 
         if lat and lng:
-            # Calculate distances
             distance_to_cornell = haversine_distance(lat, lng, CORNELL_LAT, CORNELL_LNG)
             distance_to_college = haversine_distance(lat, lng, ITHACA_COLLEGE_LAT, ITHACA_COLLEGE_LNG)
-
-            listing['coordinates'] = {
-                'lat': round(lat, 6),
-                'lng': round(lng, 6),
-            }
+            listing['coordinates'] = {'lat': round(lat, 6), 'lng': round(lng, 6)}
             listing['distance_to_cornell_miles'] = round(distance_to_cornell, 2)
             listing['distance_to_ithaca_college_miles'] = round(distance_to_college, 2)
         else:
@@ -122,9 +149,7 @@ def add_coordinates_and_distances(listings: List[Dict]) -> List[Dict]:
 
         processed.append(listing)
 
-        # Rate limiting (Nominatim asks for 1 request per second)
-        time.sleep(1.5)
-
+    _save_cache(cache)
     return processed
 
 
