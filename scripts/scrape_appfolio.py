@@ -19,6 +19,7 @@ logger = logging.getLogger(__name__)
 APPFOLIO_PORTALS = {
     'ppmhomes': 'ppmhomes',
     'travishyde': 'travishyde',
+    'mlr': 'modernliving',  # Modern Living Rentals (Collegetown)
 }
 
 

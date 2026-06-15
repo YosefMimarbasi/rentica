@@ -10,6 +10,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 from scrape_craigslist import CraigslistScraper
 from scrape_lambrou import LambrouScraper
 from scrape_ithacaestates import IthacaEstatesScraper
+from scrape_strawberry import StrawberryScraper
+from scrape_ridgetop import RidgetopScraper
 from scrape_appfolio import AppFolioScraper, APPFOLIO_PORTALS
 from normalize_data import process_all_raw_data, deduplicate_listings, save_processed_data
 from geocode import add_coordinates_and_distances
@@ -43,11 +45,17 @@ def scrape_all_sources():
         'craigslist': CraigslistScraper(),
         'lambrou': LambrouScraper(),
         'ithacaestates': IthacaEstatesScraper(),
+        'strawberry': StrawberryScraper(),
+        'ridgetop': RidgetopScraper(),
     }
-    # AppFolio-powered property managers (PPM Homes, Travis Hyde, ...).
+    # AppFolio-powered property managers (PPM Homes, Travis Hyde,
+    # Modern Living Rentals, ...).
     for portal, name in APPFOLIO_PORTALS.items():
         sources[name] = AppFolioScraper(portal, name)
     # Sites blocking automated access (HTTP 403): apartments.com, zillow.com
+    # Sites needing a headless browser / other platforms (not yet supported):
+    #   Lux & Lofts (Entrata), Cayuga Place (RealPage), Harold's Square (Buildium),
+    #   Collegetown Terrace (403), Heritage Park (greatcommunities portal)
 
     all_listings = []
     for source_name, scraper in sources.items():

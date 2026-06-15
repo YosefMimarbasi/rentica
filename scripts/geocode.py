@@ -1,6 +1,7 @@
 """Add geocoding (coordinates) and distances to apartments."""
 import json
 import logging
+import re
 import time
 from pathlib import Path
 from typing import List, Dict, Tuple
@@ -36,23 +37,40 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
     return c * r
 
 
+def _strip_unit(address: str) -> str:
+    """Drop a unit/apartment suffix so the street address geocodes cleanly.
+
+    e.g. "319 Highland Road, 2A, Ithaca, NY" -> "319 Highland Road, Ithaca, NY"
+         "401 College Avenue - 2a, Ithaca, NY" -> "401 College Avenue, Ithaca, NY"
+    """
+    # Remove "- <unit>" segments before the city.
+    address = re.sub(r'\s*[-–]\s*[\w/]+\s*,', ',', address)
+    # Remove a short alphanumeric unit token between commas (e.g. ", 2A,").
+    address = re.sub(r',\s*[\w/]{1,5}\s*,', ',', address)
+    return address
+
+
 def geocode_address(address: str, geocoder) -> Tuple[float, float]:
-    """Geocode an address to lat/lng coordinates."""
-    try:
-        # Add Ithaca, NY context if not present
-        if 'ithaca' not in address.lower():
-            address = f"{address}, Ithaca, NY"
+    """Geocode an address to lat/lng coordinates, with a unit-stripped retry."""
+    if 'ithaca' not in address.lower():
+        address = f"{address}, Ithaca, NY"
 
-        location = geocoder.geocode(address, timeout=10)
-        if location:
-            return location.latitude, location.longitude
-        else:
-            logger.warning(f"Could not geocode: {address}")
-            return 0, 0
+    attempts = [address]
+    stripped = _strip_unit(address)
+    if stripped != address:
+        attempts.append(stripped)
 
-    except Exception as e:
-        logger.warning(f"Geocoding error for {address}: {e}")
-        return 0, 0
+    for attempt in attempts:
+        try:
+            location = geocoder.geocode(attempt, timeout=10)
+            if location:
+                return location.latitude, location.longitude
+        except Exception as e:
+            logger.warning(f"Geocoding error for {attempt}: {e}")
+        time.sleep(1.0)
+
+    logger.warning(f"Could not geocode: {address}")
+    return 0, 0
 
 
 def add_coordinates_and_distances(listings: List[Dict]) -> List[Dict]:
