@@ -13,6 +13,7 @@ from scrape_ithacaestates import IthacaEstatesScraper
 from scrape_strawberry import StrawberryScraper
 from scrape_ridgetop import RidgetopScraper
 from scrape_appfolio import AppFolioScraper, APPFOLIO_PORTALS
+from scrape_cuapts import CuaptsScraper
 from normalize_data import process_all_raw_data, deduplicate_listings, save_processed_data
 from geocode import add_coordinates_and_distances
 
@@ -47,6 +48,7 @@ def scrape_all_sources():
         'ithacaestates': IthacaEstatesScraper(),
         'strawberry': StrawberryScraper(),
         'ridgetop': RidgetopScraper(),
+        'cuapts': CuaptsScraper(),
     }
     # AppFolio-powered property managers (PPM Homes, Travis Hyde,
     # Modern Living Rentals, ...).

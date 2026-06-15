@@ -40,6 +40,7 @@ wheels/
 data/raw/*.json
 data/processed/*.json
 data/geocode_cache.json
+scripts/data/
 
 # Sensitive data
 .env

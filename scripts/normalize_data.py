@@ -161,6 +161,14 @@ def normalize_listing(listing: Dict[str, Any], source: str) -> Dict[str, Any]:
         'distance_to_ithaca_college_miles': listing.get('distance_to_college', 0),
     }
 
+    # Preserve rich optional layers when a source supplies them
+    # (e.g. CUAPTS reviews/star ratings, travel times, owner website).
+    for extra in ('ratings', 'reviews', 'travel_times'):
+        if listing.get(extra):
+            normalized[extra] = listing[extra]
+    if listing.get('housing', {}).get('area'):
+        normalized['housing']['area'] = listing['housing']['area']
+
     return normalized
 
 
