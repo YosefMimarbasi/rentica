@@ -83,43 +83,67 @@ def extract_amenities(text: str) -> Dict[str, bool]:
 
 
 def normalize_listing(listing: Dict[str, Any], source: str) -> Dict[str, Any]:
-    """Normalize listing to standard format."""
+    """Normalize listing to standard format.
+
+    Prefers structured fields when the scraper already provides them
+    (e.g. the comprehensive Craigslist scraper), and falls back to
+    text parsing for sources that only supply free-form data.
+    """
     description = listing.get('description', '') or listing.get('details', '') or ''
     title = listing.get('title', '')
     full_text = f"{title} {description}".lower()
 
-    # Parse housing details
-    br, ba = parse_bedrooms_bathrooms(title + ' ' + description)
+    # --- Housing: prefer structured, fall back to text parsing ---
+    housing_in = listing.get('housing', {}) or {}
+    br = housing_in.get('bedrooms') or 0
+    ba = housing_in.get('bathrooms') or 0
+    if not br and not ba:
+        br, ba = parse_bedrooms_bathrooms(title + ' ' + description)
+    sqft = housing_in.get('sqft') or listing.get('sqft', 0)
 
-    # Parse price
-    price = listing.get('price', listing.get('monthly_rent', 0))
+    # --- Price: prefer structured pricing block ---
+    pricing_in = listing.get('pricing', {}) or {}
+    price = pricing_in.get('monthly_rent_total')
+    if price is None:
+        price = listing.get('price', listing.get('monthly_rent', 0))
     if isinstance(price, str):
         price = parse_price(price)
+    price = price or 0
 
-    # Extract amenities
-    amenities = extract_amenities(full_text)
+    # --- Amenities: prefer structured, fall back to text extraction ---
+    amenities = listing.get('amenities') or {}
+    if not amenities:
+        amenities = extract_amenities(full_text)
 
-    # Determine number of people sharing (from bedrooms)
-    occupants = max(br, 1) if br > 0 else 0
+    # --- Price per person (a key student metric) ---
+    occupants = max(br, 1) if br > 0 else 1
     price_per_person = price // occupants if occupants > 0 else price
 
+    # --- Furnished flag (structured or text) ---
+    furnished = amenities.get('furnished')
+    if furnished is None:
+        furnished = 'furnished' in full_text
+
     normalized = {
-        'id': f"{source}-{listing.get('id', '')}",
+        'id': listing.get('id') and f"{source}-{listing.get('id')}" or f"{source}-{abs(hash(title)) % 10**8}",
         'source': source,
         'title': title,
         'description': description,
         'address': listing.get('address', ''),
-        'coordinates': listing.get('coordinates', {}),
+        'coordinates': listing.get('coordinates', {}) or {},
+        'category': listing.get('category', ''),
         'housing': {
             'bedrooms': br,
             'bathrooms': ba,
-            'sqft': listing.get('sqft', 0),
-            'furnished': 'furnished' in full_text,
-            'floor': 0,
+            'sqft': sqft,
+            'furnished': furnished,
+            'available': housing_in.get('available', ''),
+            'housing_type': amenities.get('housing_type', ''),
         },
         'pricing': {
             'monthly_rent_total': price,
             'per_person_monthly': price_per_person,
+            'rent_period': pricing_in.get('rent_period', 'monthly'),
             'security_deposit': listing.get('deposit', 0),
             'utilities_included': 'utilities' in full_text and 'included' in full_text,
             'internet_included': 'internet' in full_text and ('included' in full_text or 'free' in full_text),
@@ -129,7 +153,7 @@ def normalize_listing(listing: Dict[str, Any], source: str) -> Dict[str, Any]:
         'contact': listing.get('contact', {}),
         'listing_info': {
             'posted_date': listing.get('posted_date', ''),
-            'last_updated': listing.get('last_updated', ''),
+            'last_updated': listing.get('updated_date', '') or listing.get('last_updated', ''),
             'url': listing.get('url', ''),
             'images': listing.get('images', []),
         },
@@ -188,11 +212,19 @@ def deduplicate_listings(listings: List[Dict]) -> List[Dict]:
 
 
 def save_processed_data(listings: List[Dict], filename: str = 'apartments.json'):
-    """Save processed listings to file."""
-    output_dir = Path('data')
-    output_dir.mkdir(parents=True, exist_ok=True)
+    """Save processed listings to file.
 
-    output_path = output_dir / filename
+    Accepts either a bare filename (saved under data/) or a path that
+    already includes a directory (used as-is).
+    """
+    given = Path(filename)
+    if given.parent != Path('.'):
+        # Caller supplied a directory component (e.g. 'data/apartments.json').
+        output_path = given
+    else:
+        output_path = Path('data') / given
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(listings, f, indent=2, ensure_ascii=False)
 

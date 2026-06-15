@@ -63,6 +63,19 @@ def add_coordinates_and_distances(listings: List[Dict]) -> List[Dict]:
     for i, listing in enumerate(listings):
         address = listing.get('address', '')
 
+        # Fast path: listing already carries coordinates (e.g. Craigslist
+        # embeds lat/lng on each detail page). Skip the geocoding API call
+        # and just compute distances.
+        existing = listing.get('coordinates', {}) or {}
+        if existing.get('lat') and existing.get('lng'):
+            lat, lng = existing['lat'], existing['lng']
+            listing['distance_to_cornell_miles'] = round(
+                haversine_distance(lat, lng, CORNELL_LAT, CORNELL_LNG), 2)
+            listing['distance_to_ithaca_college_miles'] = round(
+                haversine_distance(lat, lng, ITHACA_COLLEGE_LAT, ITHACA_COLLEGE_LNG), 2)
+            processed.append(listing)
+            continue
+
         if not address:
             logger.warning(f"No address for listing {i}: {listing.get('title')}")
             processed.append(listing)
