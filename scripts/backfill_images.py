@@ -55,7 +55,27 @@ def lambrou_images(html):
     return out[:30]
 
 
-EXTRACTORS = {"craigslist": craigslist_images, "lambrou": lambrou_images}
+def ithacaestates_images(html):
+    # Duda/cdn-website hosted; property photos are *-1920w.jpg under lirp.cdn-website.
+    urls = re.findall(r'https://lirp\.cdn-website\.com/[^"\s\\)]+\.(?:jpg|jpeg|png)', html)
+    seen, out = set(), []
+    for u in urls:
+        # keep the largest variant; dedupe by the photo stem (before -<width>w)
+        stem = re.sub(r"-\d+w\.(jpg|jpeg|png)$", "", u)
+        if any(k in u.lower() for k in ("logo", "icon", "favicon", "white")):
+            continue
+        if stem in seen:
+            continue
+        seen.add(stem)
+        out.append(u)
+    return out[:40]
+
+
+EXTRACTORS = {
+    "craigslist": craigslist_images,
+    "lambrou": lambrou_images,
+    "ithacaestates": ithacaestates_images,
+}
 
 
 def main(source, limit=None):
