@@ -71,3 +71,6 @@ scripts/ithaca_uids.txt
 /0
 /5}
 /6}
+
+# local dev / editor
+.claude/
