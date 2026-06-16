@@ -194,8 +194,72 @@
     "sources": [
       "cuapts"
     ],
-    "images": [],
+    "images": [
+      "https://media.apts247.info/tour/a2d4d746847e4b29b509366ab5d9c545/preview/community-amenities-360/Bridge_Thumbnail.jpg",
+      "https://media.apts247.info/tour/12b2df323b164cce9318a017897006ee/preview/community-amenities-360/Community_Thumbnail.jpg",
+      "https://thumbs.apts247.info/resize/?img=https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/galleries/community/village-solar-exterior/0O7A7565.jpg&w=850",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solar-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-home-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-home-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/random.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/affordable-housing-in-the-northeast-apartment-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/something.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/1.jpg",
+      "https://images.apts247.info/131220/1920x1080.webp",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-community-amenities.jpg",
+      "https://images.apts247.info/131236/1920x1080.webp",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-apartment-features.jpg"
+    ],
     "units": []
+  },
+  {
+    "building_id": "10-hudson-place",
+    "building_key": "10 hudson place",
+    "address": "10 Hudson Pl, Ithaca, NY 14850",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "ithacalivingsolutions"
+    ],
+    "images": [
+      "https://images.cdn.appfolio.com/ithacalivingsolutions/images/7a376a3b-0a75-4740-94c1-0157810e37cf/medium.jpg"
+    ],
+    "units": [
+      {
+        "id": "ithacalivingsolutions-25",
+        "source": "ithacalivingsolutions",
+        "unit": "",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 1200,
+        "available": "1/1/27 Quiet Student Studio Al",
+        "url": "https://ithacalivingsolutions.appfolio.com/listings/detail/655ba616-e3fe-46d2-9a4f-f2817e6e97f9",
+        "images": [
+          "https://images.cdn.appfolio.com/ithacalivingsolutions/images/7a376a3b-0a75-4740-94c1-0157810e37cf/medium.jpg"
+        ]
+      }
+    ]
   },
   {
     "building_id": "100-graham-road",
@@ -989,6 +1053,42 @@
       "https://firebasestorage.googleapis.com/v0/b/cuapts-prod.appspot.com/o/building-images%2FCommons%20West%201?alt=media&token=84e7f1ad-46f6-487f-a6a7-e4f5e396a96d"
     ],
     "units": []
+  },
+  {
+    "building_id": "101-eddy-street",
+    "building_key": "101 eddy street",
+    "address": "101 Eddy Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_e68d7c0505cf47b7a67cb4f234e17da4~mv2.jpg/v1/fit/w_980,h_735,q_90,enc_avif,quality_auto/106e2b_e68d7c0505cf47b7a67cb4f234e17da4~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_1aec914adcb843daaacc3b603f58cc32~mv2.jpg/v1/fit/w_640,h_480,q_90,enc_avif,quality_auto/106e2b_1aec914adcb843daaacc3b603f58cc32~mv2.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-101-eddy-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 8,
+        "bathrooms": 3,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/101-eddy-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_e68d7c0505cf47b7a67cb4f234e17da4~mv2.jpg/v1/fit/w_980,h_735,q_90,enc_avif,quality_auto/106e2b_e68d7c0505cf47b7a67cb4f234e17da4~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_1aec914adcb843daaacc3b603f58cc32~mv2.jpg/v1/fit/w_640,h_480,q_90,enc_avif,quality_auto/106e2b_1aec914adcb843daaacc3b603f58cc32~mv2.jpg"
+        ]
+      }
+    ]
   },
   {
     "building_id": "101-north-quarry",
@@ -2743,6 +2843,42 @@
     "units": []
   },
   {
+    "building_id": "105-eddy-street",
+    "building_key": "105 eddy street",
+    "address": "105 Eddy Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_eb74b9a8ea894c63b1ef840407994dfa~mv2.jpg/v1/crop/x_0,y_5,w_480,h_453/fill/w_576,h_544,al_c,lg_1,q_80,enc_avif,quality_auto/IMG_4306_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_8b0d1dd69f8d4cfa80a3fb2e58ed01bef000.jpg/v1/fill/w_280,h_112,al_c,lg_1,q_80,enc_auto/106e2b_8b0d1dd69f8d4cfa80a3fb2e58ed01bef000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-105-eddy-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 6,
+        "bathrooms": 4,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/105-eddy-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_eb74b9a8ea894c63b1ef840407994dfa~mv2.jpg/v1/crop/x_0,y_5,w_480,h_453/fill/w_576,h_544,al_c,lg_1,q_80,enc_avif,quality_auto/IMG_4306_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_8b0d1dd69f8d4cfa80a3fb2e58ed01bef000.jpg/v1/fill/w_280,h_112,al_c,lg_1,q_80,enc_auto/106e2b_8b0d1dd69f8d4cfa80a3fb2e58ed01bef000.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "105-highland-place",
     "building_key": "105 highland place",
     "address": "105 Highland Place Unit 5, Ithaca, NY",
@@ -4233,7 +4369,37 @@
     "sources": [
       "cuapts"
     ],
-    "images": [],
+    "images": [
+      "https://media.apts247.info/tour/a2d4d746847e4b29b509366ab5d9c545/preview/community-amenities-360/Bridge_Thumbnail.jpg",
+      "https://media.apts247.info/tour/12b2df323b164cce9318a017897006ee/preview/community-amenities-360/Community_Thumbnail.jpg",
+      "https://thumbs.apts247.info/resize/?img=https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/galleries/community/village-solar-exterior/0O7A7565.jpg&w=850",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solar-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-home-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-home-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/random.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/affordable-housing-in-the-northeast-apartment-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/something.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/1.jpg",
+      "https://images.apts247.info/131220/1920x1080.webp",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-community-amenities.jpg",
+      "https://images.apts247.info/131236/1920x1080.webp",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-apartment-features.jpg"
+    ],
     "units": []
   },
   {
@@ -7457,6 +7623,42 @@
     "units": []
   },
   {
+    "building_id": "112-cook-street",
+    "building_key": "112 cook street",
+    "address": "112 Cook Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_8d7bece6c77f419d9553d0a0f809acca~mv2.png/v1/crop/x_0,y_0,w_858,h_1034/fill/w_624,h_751,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/112%20Cook%20St.png",
+      "https://static.wixstatic.com/media/106e2b_60b2e0bbf64e4ab9bc5fb0d6c5485d7cf000.jpg/v1/fill/w_980,h_379,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_60b2e0bbf64e4ab9bc5fb0d6c5485d7cf000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-112-cook-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 8,
+        "bathrooms": 3,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/112-cook-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_8d7bece6c77f419d9553d0a0f809acca~mv2.png/v1/crop/x_0,y_0,w_858,h_1034/fill/w_624,h_751,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/112%20Cook%20St.png",
+          "https://static.wixstatic.com/media/106e2b_60b2e0bbf64e4ab9bc5fb0d6c5485d7cf000.jpg/v1/fill/w_980,h_379,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_60b2e0bbf64e4ab9bc5fb0d6c5485d7cf000.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "112-ferris-place",
     "building_key": "112 ferris place",
     "address": "112 Ferris Place near State Street",
@@ -8486,6 +8688,46 @@
     ]
   },
   {
+    "building_id": "113-college-avenue",
+    "building_key": "113 college avenue",
+    "address": "113 College Ave, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_babaec22632a4fbe8172471596ebf725~mv2.jpg/v1/crop/x_0,y_11,w_750,h_898/fill/w_749,h_898,al_c,q_85,enc_avif,quality_auto/113%20College%20Ave.jpg",
+      "https://static.wixstatic.com/media/106e2b_c1cb5fd3efd64e149590c57df0b213d5~mv2.jpg/v1/fit/w_462,h_462,q_90,enc_avif,quality_auto/106e2b_c1cb5fd3efd64e149590c57df0b213d5~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_317ebef2abeb46558914750cd831f8fe~mv2.jpg/v1/fit/w_462,h_462,q_90,enc_avif,quality_auto/106e2b_317ebef2abeb46558914750cd831f8fe~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_04d83a2d580e4761ab4bf87b9821f85e~mv2.jpg/v1/fit/w_462,h_462,q_90,enc_avif,quality_auto/106e2b_04d83a2d580e4761ab4bf87b9821f85e~mv2.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-113-college-ave",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 13,
+        "bathrooms": 3,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/113-college-ave",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_babaec22632a4fbe8172471596ebf725~mv2.jpg/v1/crop/x_0,y_11,w_750,h_898/fill/w_749,h_898,al_c,q_85,enc_avif,quality_auto/113%20College%20Ave.jpg",
+          "https://static.wixstatic.com/media/106e2b_c1cb5fd3efd64e149590c57df0b213d5~mv2.jpg/v1/fit/w_462,h_462,q_90,enc_avif,quality_auto/106e2b_c1cb5fd3efd64e149590c57df0b213d5~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_317ebef2abeb46558914750cd831f8fe~mv2.jpg/v1/fit/w_462,h_462,q_90,enc_avif,quality_auto/106e2b_317ebef2abeb46558914750cd831f8fe~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_04d83a2d580e4761ab4bf87b9821f85e~mv2.jpg/v1/fit/w_462,h_462,q_90,enc_avif,quality_auto/106e2b_04d83a2d580e4761ab4bf87b9821f85e~mv2.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "113-cook-street",
     "building_key": "113 cook street",
     "address": "113 Cook St, Ithaca, NY",
@@ -9460,6 +9702,82 @@
     "units": []
   },
   {
+    "building_id": "115-college-avenue",
+    "building_key": "115 college avenue",
+    "address": "115 117 College Ave, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_37cf8334a016474a936fb43fe4b6b520~mv2.jpeg/v1/crop/x_0,y_0,w_2033,h_2141/fill/w_713,h_768,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_1499.jpeg",
+      "https://static.wixstatic.com/media/106e2b_efc8fe7e32d84bd79f72f0fedef7249cf000.jpg/v1/fill/w_980,h_441,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_efc8fe7e32d84bd79f72f0fedef7249cf000.jpg",
+      "https://static.wixstatic.com/media/106e2b_ee05be398adb407c905e1f572e949e8ef000.jpg/v1/fill/w_980,h_413,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_ee05be398adb407c905e1f572e949e8ef000.jpg",
+      "https://static.wixstatic.com/media/106e2b_d20372f6e0dd4586ac1d54ae759be024f000.jpg/v1/fill/w_384,h_151,al_c,lg_1,q_80,enc_auto/106e2b_d20372f6e0dd4586ac1d54ae759be024f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-115-117-college-ave",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/115-117-college-ave",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_37cf8334a016474a936fb43fe4b6b520~mv2.jpeg/v1/crop/x_0,y_0,w_2033,h_2141/fill/w_713,h_768,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_1499.jpeg",
+          "https://static.wixstatic.com/media/106e2b_efc8fe7e32d84bd79f72f0fedef7249cf000.jpg/v1/fill/w_980,h_441,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_efc8fe7e32d84bd79f72f0fedef7249cf000.jpg",
+          "https://static.wixstatic.com/media/106e2b_ee05be398adb407c905e1f572e949e8ef000.jpg/v1/fill/w_980,h_413,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_ee05be398adb407c905e1f572e949e8ef000.jpg",
+          "https://static.wixstatic.com/media/106e2b_d20372f6e0dd4586ac1d54ae759be024f000.jpg/v1/fill/w_384,h_151,al_c,lg_1,q_80,enc_auto/106e2b_d20372f6e0dd4586ac1d54ae759be024f000.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": "115-cook-street",
+    "building_key": "115 cook street",
+    "address": "115 Cook Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_88dc7ea6895f46c093abdc3d74b808b8~mv2.png/v1/fill/w_980,h_732,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/115%20Cook.png",
+      "https://static.wixstatic.com/media/106e2b_0b599326819147be8b8c0f620f71ee7cf000.jpg/v1/fill/w_540,h_216,al_c,q_80,enc_auto/106e2b_0b599326819147be8b8c0f620f71ee7cf000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-115-cook-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 7,
+        "bathrooms": 4,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/115-cook-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_88dc7ea6895f46c093abdc3d74b808b8~mv2.png/v1/fill/w_980,h_732,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/115%20Cook.png",
+          "https://static.wixstatic.com/media/106e2b_0b599326819147be8b8c0f620f71ee7cf000.jpg/v1/fill/w_540,h_216,al_c,q_80,enc_auto/106e2b_0b599326819147be8b8c0f620f71ee7cf000.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "115-dewitt-place",
     "building_key": "115 dewitt place",
     "address": "115 Dewitt Pl, Ithaca, NY",
@@ -9670,6 +9988,82 @@
         "available": "aug 1",
         "url": "https://ithaca.craigslist.org/apa/d/ithaca-bedroom-fully-furnished/7933421241.html",
         "images": []
+      }
+    ]
+  },
+  {
+    "building_id": "116-blair-street",
+    "building_key": "116 blair street",
+    "address": "116 Blair Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_029608e06ca54438be958be36710b9c0~mv2.jpg/v1/fill/w_979,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/116%20Blair%20Street%20Outside1_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_29d9350848434ff582271fe1ac2808f8~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_29d9350848434ff582271fe1ac2808f8~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_a83e4a03dd4142309a06fc49cc1897f9~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_a83e4a03dd4142309a06fc49cc1897f9~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_651356fff9f94aadae9232f9d275c92d~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_651356fff9f94aadae9232f9d275c92d~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_14bc2f35b6b849158abf116151801dfa~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_14bc2f35b6b849158abf116151801dfa~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_daa0a96ca05640868c145799963a66d9~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_daa0a96ca05640868c145799963a66d9~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_3751ccca079141b5b27b95b7efb3acc4~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_3751ccca079141b5b27b95b7efb3acc4~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_ffa93a8520d548b6a7fad297370c8236~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_ffa93a8520d548b6a7fad297370c8236~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_f54a0865f32441e1930a67ab5f9ccb61~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_f54a0865f32441e1930a67ab5f9ccb61~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_012a8cc9cbf74dc19e7bfb9cc32efedb~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_012a8cc9cbf74dc19e7bfb9cc32efedb~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_6627a38f2f194c879f3981e505d85c9a~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_6627a38f2f194c879f3981e505d85c9a~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_20f4f231b95146859e34a41a2984377d~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_20f4f231b95146859e34a41a2984377d~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_856d99819edb4ed2b4b861248fc1dd4e~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_856d99819edb4ed2b4b861248fc1dd4e~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_c850ea0cf3b649daaafca0b24ee37040~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_c850ea0cf3b649daaafca0b24ee37040~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_7f961a72b17f4d0bb65db61e432a70c3f000.jpg/v1/fill/w_980,h_494,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_7f961a72b17f4d0bb65db61e432a70c3f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_29217e0a2d1d40f29eda4af505d148de~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_29217e0a2d1d40f29eda4af505d148de~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_8e5e0161db0a43dd97dd682b7c42bc25~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_8e5e0161db0a43dd97dd682b7c42bc25~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_3742898ed9d749aaa2588e37b8e16866~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_3742898ed9d749aaa2588e37b8e16866~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_5f52b7b9dbe74929b7f5fcd59c7d9543~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_5f52b7b9dbe74929b7f5fcd59c7d9543~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_d0eaa4a073124c2db063097f98ac9762~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_d0eaa4a073124c2db063097f98ac9762~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_60af28b39eda4ca4a64a19be28b39a69~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_60af28b39eda4ca4a64a19be28b39a69~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_22f10b9c26784f3abf1aa14dd00eb49df000.jpg/v1/fill/w_980,h_494,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_22f10b9c26784f3abf1aa14dd00eb49df000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-116-blair-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/116-blair-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_029608e06ca54438be958be36710b9c0~mv2.jpg/v1/fill/w_979,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/116%20Blair%20Street%20Outside1_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_29d9350848434ff582271fe1ac2808f8~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_29d9350848434ff582271fe1ac2808f8~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_a83e4a03dd4142309a06fc49cc1897f9~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_a83e4a03dd4142309a06fc49cc1897f9~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_651356fff9f94aadae9232f9d275c92d~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_651356fff9f94aadae9232f9d275c92d~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_14bc2f35b6b849158abf116151801dfa~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_14bc2f35b6b849158abf116151801dfa~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_daa0a96ca05640868c145799963a66d9~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_daa0a96ca05640868c145799963a66d9~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_3751ccca079141b5b27b95b7efb3acc4~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_3751ccca079141b5b27b95b7efb3acc4~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_ffa93a8520d548b6a7fad297370c8236~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_ffa93a8520d548b6a7fad297370c8236~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_f54a0865f32441e1930a67ab5f9ccb61~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_f54a0865f32441e1930a67ab5f9ccb61~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_012a8cc9cbf74dc19e7bfb9cc32efedb~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_012a8cc9cbf74dc19e7bfb9cc32efedb~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_6627a38f2f194c879f3981e505d85c9a~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_6627a38f2f194c879f3981e505d85c9a~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_20f4f231b95146859e34a41a2984377d~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_20f4f231b95146859e34a41a2984377d~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_856d99819edb4ed2b4b861248fc1dd4e~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_856d99819edb4ed2b4b861248fc1dd4e~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_c850ea0cf3b649daaafca0b24ee37040~mv2.jpg/v1/fit/w_472,h_354,q_90,enc_avif,quality_auto/106e2b_c850ea0cf3b649daaafca0b24ee37040~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_7f961a72b17f4d0bb65db61e432a70c3f000.jpg/v1/fill/w_980,h_494,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_7f961a72b17f4d0bb65db61e432a70c3f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_29217e0a2d1d40f29eda4af505d148de~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_29217e0a2d1d40f29eda4af505d148de~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_8e5e0161db0a43dd97dd682b7c42bc25~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_8e5e0161db0a43dd97dd682b7c42bc25~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_3742898ed9d749aaa2588e37b8e16866~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_3742898ed9d749aaa2588e37b8e16866~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_5f52b7b9dbe74929b7f5fcd59c7d9543~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_5f52b7b9dbe74929b7f5fcd59c7d9543~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_d0eaa4a073124c2db063097f98ac9762~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_d0eaa4a073124c2db063097f98ac9762~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_60af28b39eda4ca4a64a19be28b39a69~mv2.jpg/v1/fit/w_560,h_420,q_90,enc_avif,quality_auto/106e2b_60af28b39eda4ca4a64a19be28b39a69~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_22f10b9c26784f3abf1aa14dd00eb49df000.jpg/v1/fill/w_980,h_494,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_22f10b9c26784f3abf1aa14dd00eb49df000.jpg"
+        ]
       }
     ]
   },
@@ -10324,8 +10718,74 @@
     "sources": [
       "cuapts"
     ],
-    "images": [],
+    "images": [
+      "https://media.apts247.info/tour/a2d4d746847e4b29b509366ab5d9c545/preview/community-amenities-360/Bridge_Thumbnail.jpg",
+      "https://media.apts247.info/tour/12b2df323b164cce9318a017897006ee/preview/community-amenities-360/Community_Thumbnail.jpg",
+      "https://thumbs.apts247.info/resize/?img=https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/galleries/community/village-solar-exterior/0O7A7565.jpg&w=850",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solar-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-home-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-home-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/random.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/affordable-housing-in-the-northeast-apartment-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/something.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/1.jpg",
+      "https://images.apts247.info/131220/1920x1080.webp",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-community-amenities.jpg",
+      "https://images.apts247.info/131236/1920x1080.webp",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-apartment-features.jpg"
+    ],
     "units": []
+  },
+  {
+    "building_id": "118-blair-street",
+    "building_key": "118 blair street",
+    "address": "118 Blair Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_7e217007ef0d44f09c9cfaaea90cf6bf~mv2.jpeg/v1/fill/w_979,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_6916.jpeg",
+      "https://static.wixstatic.com/media/106e2b_35653a04b3104de6b78ab72d0a24abd3f000.jpg/v1/fill/w_384,h_194,al_c,lg_1,q_80,enc_auto/106e2b_35653a04b3104de6b78ab72d0a24abd3f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-118-blair-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 3,
+        "bathrooms": 1.5,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/118-blair-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_7e217007ef0d44f09c9cfaaea90cf6bf~mv2.jpeg/v1/fill/w_979,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_6916.jpeg",
+          "https://static.wixstatic.com/media/106e2b_35653a04b3104de6b78ab72d0a24abd3f000.jpg/v1/fill/w_384,h_194,al_c,lg_1,q_80,enc_auto/106e2b_35653a04b3104de6b78ab72d0a24abd3f000.jpg"
+        ]
+      }
+    ]
   },
   {
     "building_id": "118-catherine-street",
@@ -10428,7 +10888,20 @@
     "sources": [
       "cuapts"
     ],
-    "images": [],
+    "images": [
+      "https://static.wixstatic.com/media/086cd8_a59b694fbe1742f380167170ea066b79~mv2.jpg",
+      "https://static.wixstatic.com/media/086cd8_45df6a037dbb46cfbd1f6289b69b9bed~mv2.png",
+      "https://static.wixstatic.com/media/086cd8_4761e1f7eebd42598d78ca97a8f69536~mv2.jpg",
+      "https://static.wixstatic.com/media/086cd8_a510d97ad71d438a86508c50eadac760~mv2.jpeg",
+      "https://static.wixstatic.com/media/086cd8_2f231530f41544b3b11bb6360d635a9d~mv2.jpg",
+      "https://static.wixstatic.com/media/086cd8_23a9750b25c140a48924fcda7833694c~mv2.jpg",
+      "https://static.wixstatic.com/media/086cd8_6d0d9b8fa52046bfa14bf0aa30953269~mv2.jpg",
+      "https://static.wixstatic.com/media/086cd8_582aade19a0240269764334bfa2e2ee4~mv2.jpg",
+      "https://static.wixstatic.com/media/086cd8_31dde6a8cabf413d9739e6815c55c8ef~mv2.jpg",
+      "https://static.wixstatic.com/media/086cd8_e28595e92f2c465295e62dde4fc3bd58~mv2.jpg",
+      "https://static.wixstatic.com/media/086cd8_c2d3a5cc071045af826f33de59019688~mv2.jpg",
+      "https://static.wixstatic.com/media/086cd8_d96fe8aaa480416ba5ad086aa9ab666f~mv2.png"
+    ],
     "units": []
   },
   {
@@ -10668,6 +11141,44 @@
           "https://images.craigslist.org/00V0V_2LmrIY43dM1_0fc0bp_600x450.jpg",
           "https://images.craigslist.org/00p0p_b2Ip0zsFN3x_0fd0bi_600x450.jpg",
           "https://images.craigslist.org/00o0o_6gzeT2F2FrE_0f90bn_600x450.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": "119-blair-street",
+    "building_key": "119 blair street",
+    "address": "119 Blair Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_cfeb33bdeeae4d04b4047a89836d5eca~mv2.jpg/v1/fill/w_586,h_443,al_c,q_80,enc_avif,quality_auto/119%20blair_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_b5d83fc342044f588336079d24844f69f000.jpg/v1/fill/w_980,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/106e2b_b5d83fc342044f588336079d24844f69f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_e5cbd71d3054421cb8dcf16d00e1244af000.jpg/v1/fill/w_980,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/106e2b_e5cbd71d3054421cb8dcf16d00e1244af000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-119-blair-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/119-blair-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_cfeb33bdeeae4d04b4047a89836d5eca~mv2.jpg/v1/fill/w_586,h_443,al_c,q_80,enc_avif,quality_auto/119%20blair_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_b5d83fc342044f588336079d24844f69f000.jpg/v1/fill/w_980,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/106e2b_b5d83fc342044f588336079d24844f69f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_e5cbd71d3054421cb8dcf16d00e1244af000.jpg/v1/fill/w_980,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/106e2b_e5cbd71d3054421cb8dcf16d00e1244af000.jpg"
         ]
       }
     ]
@@ -11006,6 +11517,42 @@
     ]
   },
   {
+    "building_id": "120-blair-street",
+    "building_key": "120 blair street",
+    "address": "120 Blair Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_07dc2f8fc0224215aaa6f3a98d64c8d0~mv2.jpg/v1/fill/w_980,h_680,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/120%20Blair%20Street%20Outside2_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_261c284a41414d32933b29b1045943d8f000.jpg/v1/fill/w_384,h_179,al_c,lg_1,q_80,enc_auto/106e2b_261c284a41414d32933b29b1045943d8f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-120-blair-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/120-blair-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_07dc2f8fc0224215aaa6f3a98d64c8d0~mv2.jpg/v1/fill/w_980,h_680,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/120%20Blair%20Street%20Outside2_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_261c284a41414d32933b29b1045943d8f000.jpg/v1/fill/w_384,h_179,al_c,lg_1,q_80,enc_auto/106e2b_261c284a41414d32933b29b1045943d8f000.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "120-highland-place",
     "building_key": "120 highland place",
     "address": "120 highland place near williams",
@@ -11212,7 +11759,9 @@
     "sources": [
       "cuapts"
     ],
-    "images": [],
+    "images": [
+      "https://www.kimballrentals.com/uploads/2/6/4/3/26439444/5144563.jpg"
+    ],
     "units": []
   },
   {
@@ -12675,6 +13224,42 @@
     "units": []
   },
   {
+    "building_id": "127-blair-street",
+    "building_key": "127 blair street",
+    "address": "127 Blair Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_e4f4368a33ef44b083e9f7cf50442fdd~mv2.jpg/v1/fill/w_768,h_559,al_c,lg_1,q_85,enc_avif,quality_auto/Outside127Blair_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_0428d42792ee4abeab67d02b5a4c563bf000.jpg/v1/fill/w_979,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_0428d42792ee4abeab67d02b5a4c563bf000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-127-blair-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 7,
+        "bathrooms": 3,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/127-blair-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_e4f4368a33ef44b083e9f7cf50442fdd~mv2.jpg/v1/fill/w_768,h_559,al_c,lg_1,q_85,enc_avif,quality_auto/Outside127Blair_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_0428d42792ee4abeab67d02b5a4c563bf000.jpg/v1/fill/w_979,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_0428d42792ee4abeab67d02b5a4c563bf000.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "127-college-avenue",
     "building_key": "127 college avenue",
     "address": "127 College Ave, Ithaca, NY",
@@ -12797,6 +13382,78 @@
           "https://images.craigslist.org/00K0K_ehwgBIHCCc7_0pO0jm_600x450.jpg",
           "https://images.craigslist.org/00L0L_j5i2RhhecOy_0kE0fu_600x450.jpg",
           "https://images.craigslist.org/00000_9D96qSCHjnp_0kE0fu_600x450.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": "129-blair-street",
+    "building_key": "129 blair street",
+    "address": "129 Blair Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_56e82599a5ae4ca98c123d3797ac9f96~mv2.jpg/v1/fill/w_980,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0105_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_35a32737976b4e0a805282b5c00f7e10f000.jpg/v1/fill/w_280,h_111,al_c,lg_1,q_80,enc_auto/106e2b_35a32737976b4e0a805282b5c00f7e10f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-copy-of-129-blair-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/copy-of-129-blair-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_56e82599a5ae4ca98c123d3797ac9f96~mv2.jpg/v1/fill/w_980,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0105_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_35a32737976b4e0a805282b5c00f7e10f000.jpg/v1/fill/w_280,h_111,al_c,lg_1,q_80,enc_auto/106e2b_35a32737976b4e0a805282b5c00f7e10f000.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": "130-blair-street",
+    "building_key": "130 blair street",
+    "address": "130 Blair Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_2ebca7064de347d698a57e60b5cc31aa~mv2.jpg/v1/fill/w_651,h_484,al_c,lg_1,q_80,enc_avif,quality_auto/Outside130Blair_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_9b721f6aba7f47f694e0bf2270e29d12f000.jpg/v1/fill/w_980,h_335,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/106e2b_9b721f6aba7f47f694e0bf2270e29d12f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-130-blair-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/130-blair-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_2ebca7064de347d698a57e60b5cc31aa~mv2.jpg/v1/fill/w_651,h_484,al_c,lg_1,q_80,enc_avif,quality_auto/Outside130Blair_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_9b721f6aba7f47f694e0bf2270e29d12f000.jpg/v1/fill/w_980,h_335,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/106e2b_9b721f6aba7f47f694e0bf2270e29d12f000.jpg"
         ]
       }
     ]
@@ -13631,6 +14288,80 @@
     ]
   },
   {
+    "building_id": "132-blair-street",
+    "building_key": "132 blair street",
+    "address": "132 Blair Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_f9687404970e415d83921540773d894c~mv2.jpg/v1/fill/w_979,h_739,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/132%20Blair%20Outside%20Side%20View_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_3f2bd843e50a40ed8f80b699cb057996f000.jpg/v1/fill/w_980,h_379,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_3f2bd843e50a40ed8f80b699cb057996f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-132-blair-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 7,
+        "bathrooms": 3,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/132-blair-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_f9687404970e415d83921540773d894c~mv2.jpg/v1/fill/w_979,h_739,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/132%20Blair%20Outside%20Side%20View_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_3f2bd843e50a40ed8f80b699cb057996f000.jpg/v1/fill/w_980,h_379,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_3f2bd843e50a40ed8f80b699cb057996f000.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": "132-college-avenue",
+    "building_key": "132 college avenue",
+    "address": "132 College Ave, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_3bba254e49d445d48ae928ad543a3f71~mv2.jpg/v1/crop/x_143,y_170,w_986,h_1249/fill/w_758,h_960,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/132%20College%20Ave.jpg",
+      "https://static.wixstatic.com/media/106e2b_45126191ebd845ce879726c349e06c58f000.jpg/v1/fill/w_980,h_422,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_45126191ebd845ce879726c349e06c58f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_c7e3be1f55fe40d68d77c82452b7d589f000.jpg/v1/fill/w_980,h_422,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_c7e3be1f55fe40d68d77c82452b7d589f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-132-college-ave",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 7,
+        "bathrooms": 2.5,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/132-college-ave",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_3bba254e49d445d48ae928ad543a3f71~mv2.jpg/v1/crop/x_143,y_170,w_986,h_1249/fill/w_758,h_960,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/132%20College%20Ave.jpg",
+          "https://static.wixstatic.com/media/106e2b_45126191ebd845ce879726c349e06c58f000.jpg/v1/fill/w_980,h_422,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_45126191ebd845ce879726c349e06c58f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_c7e3be1f55fe40d68d77c82452b7d589f000.jpg/v1/fill/w_980,h_422,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_c7e3be1f55fe40d68d77c82452b7d589f000.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "132a-east-spencer-street",
     "building_key": "132a east spencer street",
     "address": "132A E. Spencer St, Ithaca, NY",
@@ -14044,6 +14775,72 @@
       "https://storage.googleapis.com/cuapts-prod.appspot.com/building-images/135%20Cook%20St%202"
     ],
     "units": []
+  },
+  {
+    "building_id": "138-linden-avenue",
+    "building_key": "138 linden avenue",
+    "address": "138 Linden Ave, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_4d341a259e1a478db2ac58fa8a1cf570~mv2.jpg/v1/fill/w_715,h_816,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/138LindenOutside_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_940d032141f44cbc986c080815a1e482~mv2.jpeg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_940d032141f44cbc986c080815a1e482~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_9ca30085c10444b9b2dbc6b5449bbf7c~mv2.jpeg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_9ca30085c10444b9b2dbc6b5449bbf7c~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_e6da4cf982c446dc991a11e070c71cee~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_e6da4cf982c446dc991a11e070c71cee~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_3d16ef239a5c472898a9c09c34624975~mv2_d_4032_3024_s_4_2.jpeg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_3d16ef239a5c472898a9c09c34624975~mv2_d_4032_3024_s_4_2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_f28e45e1c1f842eb9a1e72cd1a83c26df000.jpg/v1/fill/w_980,h_501,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_f28e45e1c1f842eb9a1e72cd1a83c26df000.jpg",
+      "https://static.wixstatic.com/media/106e2b_7186456ec31e4b388cc04ba7b6e913aff000.jpg/v1/fill/w_540,h_244,al_c,q_80,enc_auto/106e2b_7186456ec31e4b388cc04ba7b6e913aff000.jpg",
+      "https://static.wixstatic.com/media/106e2b_19e4183d8fe942889fd52c6d3adf9e9d~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_19e4183d8fe942889fd52c6d3adf9e9d~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_ffa5adfea2e0476685a3bdd444281a3f~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_ffa5adfea2e0476685a3bdd444281a3f~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_2464488eafe64aabaf8afa1e4c893129~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_2464488eafe64aabaf8afa1e4c893129~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_8b8ac986a4eb40629737bfa2033d6489~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_8b8ac986a4eb40629737bfa2033d6489~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_1fb8252e7aff471f94642bff5ff134e7~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_1fb8252e7aff471f94642bff5ff134e7~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_e3abd1ab5fc049fe8deed02536e710fe~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_e3abd1ab5fc049fe8deed02536e710fe~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_0bfc9aa90ff64e489a4e30d05436a3d6~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_0bfc9aa90ff64e489a4e30d05436a3d6~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_ede6e1fb513d4477bd0e4425fd2a3a93~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_ede6e1fb513d4477bd0e4425fd2a3a93~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_315810cf174d48e08c176cb9a12e88ca~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_315810cf174d48e08c176cb9a12e88ca~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_5096499ef13b43009a653022243ec0a9~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_5096499ef13b43009a653022243ec0a9~mv2.jpeg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-138-linden-ave",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 7,
+        "bathrooms": 2,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/138-linden-ave",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_4d341a259e1a478db2ac58fa8a1cf570~mv2.jpg/v1/fill/w_715,h_816,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/138LindenOutside_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_940d032141f44cbc986c080815a1e482~mv2.jpeg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_940d032141f44cbc986c080815a1e482~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_9ca30085c10444b9b2dbc6b5449bbf7c~mv2.jpeg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_9ca30085c10444b9b2dbc6b5449bbf7c~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_e6da4cf982c446dc991a11e070c71cee~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_e6da4cf982c446dc991a11e070c71cee~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_3d16ef239a5c472898a9c09c34624975~mv2_d_4032_3024_s_4_2.jpeg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_3d16ef239a5c472898a9c09c34624975~mv2_d_4032_3024_s_4_2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_f28e45e1c1f842eb9a1e72cd1a83c26df000.jpg/v1/fill/w_980,h_501,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_f28e45e1c1f842eb9a1e72cd1a83c26df000.jpg",
+          "https://static.wixstatic.com/media/106e2b_7186456ec31e4b388cc04ba7b6e913aff000.jpg/v1/fill/w_540,h_244,al_c,q_80,enc_auto/106e2b_7186456ec31e4b388cc04ba7b6e913aff000.jpg",
+          "https://static.wixstatic.com/media/106e2b_19e4183d8fe942889fd52c6d3adf9e9d~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_19e4183d8fe942889fd52c6d3adf9e9d~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_ffa5adfea2e0476685a3bdd444281a3f~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_ffa5adfea2e0476685a3bdd444281a3f~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_2464488eafe64aabaf8afa1e4c893129~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_2464488eafe64aabaf8afa1e4c893129~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_8b8ac986a4eb40629737bfa2033d6489~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_8b8ac986a4eb40629737bfa2033d6489~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_1fb8252e7aff471f94642bff5ff134e7~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_1fb8252e7aff471f94642bff5ff134e7~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_e3abd1ab5fc049fe8deed02536e710fe~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_e3abd1ab5fc049fe8deed02536e710fe~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_0bfc9aa90ff64e489a4e30d05436a3d6~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_0bfc9aa90ff64e489a4e30d05436a3d6~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_ede6e1fb513d4477bd0e4425fd2a3a93~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_ede6e1fb513d4477bd0e4425fd2a3a93~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_315810cf174d48e08c176cb9a12e88ca~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_315810cf174d48e08c176cb9a12e88ca~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_5096499ef13b43009a653022243ec0a9~mv2.jpeg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_5096499ef13b43009a653022243ec0a9~mv2.jpeg"
+        ]
+      }
+    ]
   },
   {
     "building_id": "138-linn-street",
@@ -16587,6 +17384,57 @@
     "units": []
   },
   {
+    "building_id": "201-hudson-street",
+    "building_key": "201 hudson street",
+    "address": "201 Hudson Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 2,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_ca84ebb7e76c4c6b8fc3271540e585a6~mv2_d_3877_2908_s_4_2.jpeg/v1/fill/w_979,h_756,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CE6F32E2-9D0B-4B72-8AC6-2C3570E805A2_JPE.jpeg",
+      "https://static.wixstatic.com/media/106e2b_84d9a9b77ed14c5a96c4b5821a1df99df000.jpg/v1/fill/w_540,h_214,al_c,q_80,enc_auto/106e2b_84d9a9b77ed14c5a96c4b5821a1df99df000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-201-hudson-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 6,
+        "bathrooms": 2,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/201-hudson-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_ca84ebb7e76c4c6b8fc3271540e585a6~mv2_d_3877_2908_s_4_2.jpeg/v1/fill/w_979,h_756,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CE6F32E2-9D0B-4B72-8AC6-2C3570E805A2_JPE.jpeg",
+          "https://static.wixstatic.com/media/106e2b_84d9a9b77ed14c5a96c4b5821a1df99df000.jpg/v1/fill/w_540,h_214,al_c,q_80,enc_auto/106e2b_84d9a9b77ed14c5a96c4b5821a1df99df000.jpg"
+        ]
+      },
+      {
+        "id": "demosjohnny-copy-of-201-hudson-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/copy-of-201-hudson-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_ca84ebb7e76c4c6b8fc3271540e585a6~mv2_d_3877_2908_s_4_2.jpeg/v1/fill/w_979,h_756,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CE6F32E2-9D0B-4B72-8AC6-2C3570E805A2_JPE.jpeg",
+          "https://static.wixstatic.com/media/106e2b_84d9a9b77ed14c5a96c4b5821a1df99df000.jpg/v1/fill/w_540,h_214,al_c,q_80,enc_auto/106e2b_84d9a9b77ed14c5a96c4b5821a1df99df000.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "201-oak-avenue",
     "building_key": "201 oak avenue",
     "address": "201 Oak Avenue - G01, Ithaca, NY 14850",
@@ -17808,6 +18656,42 @@
     "units": []
   },
   {
+    "building_id": "205-eddy-street",
+    "building_key": "205 eddy street",
+    "address": "205 Eddy Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_243e3c94c0ff44df925228dadca9adc7~mv2.jpg/v1/fill/w_768,h_573,al_c,lg_1,q_85,enc_avif,quality_auto/Outside205Eddy_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_8b55195af3cd4a76ae4dcef3176d575cf000.jpg/v1/fill/w_980,h_514,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_8b55195af3cd4a76ae4dcef3176d575cf000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-205-eddy-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 7,
+        "bathrooms": 5,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/205-eddy-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_243e3c94c0ff44df925228dadca9adc7~mv2.jpg/v1/fill/w_768,h_573,al_c,lg_1,q_85,enc_avif,quality_auto/Outside205Eddy_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_8b55195af3cd4a76ae4dcef3176d575cf000.jpg/v1/fill/w_980,h_514,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_8b55195af3cd4a76ae4dcef3176d575cf000.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "205-williams-street",
     "building_key": "205 williams street",
     "address": "205 Williams St, Ithaca, NY",
@@ -18900,6 +19784,42 @@
     "units": []
   },
   {
+    "building_id": "209-eddy-street",
+    "building_key": "209 eddy street",
+    "address": "209 Eddy Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_bb9352a24dfb4a13b079cf1edede49ca~mv2.jpg/v1/fill/w_450,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_bb9352a24dfb4a13b079cf1edede49ca~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_77c49f1908d54dd9b0822a09e315eac9f000.jpg/v1/fill/w_384,h_160,al_c,lg_1,q_80,enc_auto/106e2b_77c49f1908d54dd9b0822a09e315eac9f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-209-eddy-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 7,
+        "bathrooms": 2,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/209-eddy-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_bb9352a24dfb4a13b079cf1edede49ca~mv2.jpg/v1/fill/w_450,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_bb9352a24dfb4a13b079cf1edede49ca~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_77c49f1908d54dd9b0822a09e315eac9f000.jpg/v1/fill/w_384,h_160,al_c,lg_1,q_80,enc_auto/106e2b_77c49f1908d54dd9b0822a09e315eac9f000.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "209-williams-street",
     "building_key": "209 williams street",
     "address": "209 Williams St, Ithaca, NY",
@@ -19147,6 +20067,58 @@
     ]
   },
   {
+    "building_id": "210-hudson-street",
+    "building_key": "210 hudson street",
+    "address": "210 Hudson Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 2,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_5fb9487ffb6746048338ba1eb00fa134~mv2_d_2998_3998_s_4_2.jpeg/v1/crop/x_0,y_5,w_2998,h_3137/fill/w_665,h_696,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/B23D65B7-4422-4051-B0EE-DE760375CB50_JPE.jpeg",
+      "https://static.wixstatic.com/media/106e2b_22d1df68d76843deaf8fa4aecfe2f9a1f000.jpg/v1/fill/w_280,h_117,al_c,lg_1,q_80,enc_auto/106e2b_22d1df68d76843deaf8fa4aecfe2f9a1f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_5fb9487ffb6746048338ba1eb00fa134~mv2_d_2998_3998_s_4_2.jpeg/v1/crop/x_0,y_5,w_2998,h_3137/fill/w_664,h_696,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/B23D65B7-4422-4051-B0EE-DE760375CB50_JPE.jpeg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-210-hudson-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/210-hudson-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_5fb9487ffb6746048338ba1eb00fa134~mv2_d_2998_3998_s_4_2.jpeg/v1/crop/x_0,y_5,w_2998,h_3137/fill/w_665,h_696,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/B23D65B7-4422-4051-B0EE-DE760375CB50_JPE.jpeg",
+          "https://static.wixstatic.com/media/106e2b_22d1df68d76843deaf8fa4aecfe2f9a1f000.jpg/v1/fill/w_280,h_117,al_c,lg_1,q_80,enc_auto/106e2b_22d1df68d76843deaf8fa4aecfe2f9a1f000.jpg"
+        ]
+      },
+      {
+        "id": "demosjohnny-copy-of-210-hudson-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/copy-of-210-hudson-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_5fb9487ffb6746048338ba1eb00fa134~mv2_d_2998_3998_s_4_2.jpeg/v1/crop/x_0,y_5,w_2998,h_3137/fill/w_664,h_696,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/B23D65B7-4422-4051-B0EE-DE760375CB50_JPE.jpeg",
+          "https://static.wixstatic.com/media/106e2b_22d1df68d76843deaf8fa4aecfe2f9a1f000.jpg/v1/fill/w_280,h_117,al_c,lg_1,q_80,enc_auto/106e2b_22d1df68d76843deaf8fa4aecfe2f9a1f000.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "210-lake-street",
     "building_key": "210 lake street",
     "address": "210 Lake St, Ithaca, NY",
@@ -19369,6 +20341,42 @@
       "https://storage.googleapis.com/cuapts-prod.appspot.com/building-images/210%20Williams%20St%202"
     ],
     "units": []
+  },
+  {
+    "building_id": "211-eddy-street",
+    "building_key": "211 eddy street",
+    "address": "211 Eddy Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_76635eab74f346e38c27755b8d3ea7dd~mv2.jpeg/v1/fill/w_884,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/211%20Eddy%20Street%20-%20Outside%20Pic.jpeg",
+      "https://static.wixstatic.com/media/106e2b_8a08682ef3e243f284813b66b40fe688f000.jpg/v1/fill/w_980,h_356,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/106e2b_8a08682ef3e243f284813b66b40fe688f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-211-eddy-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 8,
+        "bathrooms": 3,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/211-eddy-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_76635eab74f346e38c27755b8d3ea7dd~mv2.jpeg/v1/fill/w_884,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/211%20Eddy%20Street%20-%20Outside%20Pic.jpeg",
+          "https://static.wixstatic.com/media/106e2b_8a08682ef3e243f284813b66b40fe688f000.jpg/v1/fill/w_980,h_356,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/106e2b_8a08682ef3e243f284813b66b40fe688f000.jpg"
+        ]
+      }
+    ]
   },
   {
     "building_id": "211-linden-avenue",
@@ -20581,15 +21589,76 @@
       "hoPlazaWalking": 14.333333333333334,
       "hoPlazaDriving": 3.3833333333333333
     },
-    "num_units": 0,
+    "num_units": 1,
     "sources": [
-      "cuapts"
+      "cuapts",
+      "demosjohnny"
     ],
     "images": [
       "https://storage.googleapis.com/cuapts-prod.appspot.com/building-images/219%20Eddy%20Street%201",
-      "https://storage.googleapis.com/cuapts-prod.appspot.com/building-images/219%20Eddy%20Street%202"
+      "https://storage.googleapis.com/cuapts-prod.appspot.com/building-images/219%20Eddy%20Street%202",
+      "https://static.wixstatic.com/media/106e2b_b279a42cb30c4a39b0fb6e11bb82079af000.jpg/v1/fill/w_384,h_139,al_c,lg_1,q_80,enc_auto/106e2b_b279a42cb30c4a39b0fb6e11bb82079af000.jpg",
+      "https://static.wixstatic.com/media/106e2b_33d002a86b924e26ab7404bea2ebb95cf000.jpg/v1/fill/w_540,h_196,al_c,q_80,enc_auto/106e2b_33d002a86b924e26ab7404bea2ebb95cf000.jpg",
+      "https://static.wixstatic.com/media/106e2b_46decce43b914334b04637ee6412ae13f000.jpg/v1/fill/w_384,h_139,al_c,lg_1,q_80,enc_auto/106e2b_46decce43b914334b04637ee6412ae13f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_2903a42e90934a13bfe760228a62be09~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_2903a42e90934a13bfe760228a62be09~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_1496fe9ef0934d4fb9fe28a61d432c39~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_1496fe9ef0934d4fb9fe28a61d432c39~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_f376a6a59f134e11a365b134f13ebbcd~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_f376a6a59f134e11a365b134f13ebbcd~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_8405f54ad8c14c12ae414cc2e9c6652e~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_8405f54ad8c14c12ae414cc2e9c6652e~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_00426ee5a7334c6590cf6f0262e2631a~mv2.jpg/v1/fit/w_252,h_336,q_90,enc_avif,quality_auto/106e2b_00426ee5a7334c6590cf6f0262e2631a~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_f8537839dd864232b5e10846a02a0e54~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_f8537839dd864232b5e10846a02a0e54~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_86e7d7fec7df4137ae4f598ec8a54fc1~mv2.jpg/v1/fit/w_252,h_336,q_90,enc_avif,quality_auto/106e2b_86e7d7fec7df4137ae4f598ec8a54fc1~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_fe27d4165506480dba81f42f58df4cd5~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_fe27d4165506480dba81f42f58df4cd5~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_707634cfd159445aba7fc4e7deda1440~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_707634cfd159445aba7fc4e7deda1440~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_ed0d164f27cf4125ab984beb3b70ed29~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_ed0d164f27cf4125ab984beb3b70ed29~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_86cc11c161b54982bcd3f2921f311299~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_86cc11c161b54982bcd3f2921f311299~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_a0e96bc922464a0ea878c3ebb875ee32~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_a0e96bc922464a0ea878c3ebb875ee32~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_dd728082bff04269be4a781ed15a576c~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_dd728082bff04269be4a781ed15a576c~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_7d235430a3db4b438a9a9d606a6420bb~mv2.jpg/v1/fit/w_252,h_336,q_90,enc_avif,quality_auto/106e2b_7d235430a3db4b438a9a9d606a6420bb~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_be904aba6a8e4b80876c947b70d95970~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_be904aba6a8e4b80876c947b70d95970~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_c56cbc37dc9b44a995523e9d8584bb17f000.jpg/v1/fill/w_540,h_196,al_c,q_80,enc_auto/106e2b_c56cbc37dc9b44a995523e9d8584bb17f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_aef1e98c52aa4432a8ea700045700574~mv2.jpeg/v1/fill/w_980,h_704,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_aef1e98c52aa4432a8ea700045700574~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_788c915e67bc4e6184adfbbb9a19ddd0~mv2.jpeg/v1/fill/w_980,h_704,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_788c915e67bc4e6184adfbbb9a19ddd0~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_4fbef78e71164b758826eef2c0952079~mv2.jpeg/v1/fill/w_980,h_704,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_4fbef78e71164b758826eef2c0952079~mv2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_a141c2f71a0744db92849e64a0b93354f000.jpg/v1/fill/w_540,h_196,al_c,q_80,enc_auto/106e2b_a141c2f71a0744db92849e64a0b93354f000.jpg"
     ],
-    "units": []
+    "units": [
+      {
+        "id": "demosjohnny-219-eddy-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/219-eddy-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_b279a42cb30c4a39b0fb6e11bb82079af000.jpg/v1/fill/w_384,h_139,al_c,lg_1,q_80,enc_auto/106e2b_b279a42cb30c4a39b0fb6e11bb82079af000.jpg",
+          "https://static.wixstatic.com/media/106e2b_33d002a86b924e26ab7404bea2ebb95cf000.jpg/v1/fill/w_540,h_196,al_c,q_80,enc_auto/106e2b_33d002a86b924e26ab7404bea2ebb95cf000.jpg",
+          "https://static.wixstatic.com/media/106e2b_46decce43b914334b04637ee6412ae13f000.jpg/v1/fill/w_384,h_139,al_c,lg_1,q_80,enc_auto/106e2b_46decce43b914334b04637ee6412ae13f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_2903a42e90934a13bfe760228a62be09~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_2903a42e90934a13bfe760228a62be09~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_1496fe9ef0934d4fb9fe28a61d432c39~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_1496fe9ef0934d4fb9fe28a61d432c39~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_f376a6a59f134e11a365b134f13ebbcd~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_f376a6a59f134e11a365b134f13ebbcd~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_8405f54ad8c14c12ae414cc2e9c6652e~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_8405f54ad8c14c12ae414cc2e9c6652e~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_00426ee5a7334c6590cf6f0262e2631a~mv2.jpg/v1/fit/w_252,h_336,q_90,enc_avif,quality_auto/106e2b_00426ee5a7334c6590cf6f0262e2631a~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_f8537839dd864232b5e10846a02a0e54~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_f8537839dd864232b5e10846a02a0e54~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_86e7d7fec7df4137ae4f598ec8a54fc1~mv2.jpg/v1/fit/w_252,h_336,q_90,enc_avif,quality_auto/106e2b_86e7d7fec7df4137ae4f598ec8a54fc1~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_fe27d4165506480dba81f42f58df4cd5~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_fe27d4165506480dba81f42f58df4cd5~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_707634cfd159445aba7fc4e7deda1440~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_707634cfd159445aba7fc4e7deda1440~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_ed0d164f27cf4125ab984beb3b70ed29~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_ed0d164f27cf4125ab984beb3b70ed29~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_86cc11c161b54982bcd3f2921f311299~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_86cc11c161b54982bcd3f2921f311299~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_a0e96bc922464a0ea878c3ebb875ee32~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_a0e96bc922464a0ea878c3ebb875ee32~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_dd728082bff04269be4a781ed15a576c~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_dd728082bff04269be4a781ed15a576c~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_7d235430a3db4b438a9a9d606a6420bb~mv2.jpg/v1/fit/w_252,h_336,q_90,enc_avif,quality_auto/106e2b_7d235430a3db4b438a9a9d606a6420bb~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_be904aba6a8e4b80876c947b70d95970~mv2.jpg/v1/fit/w_448,h_336,q_90,enc_avif,quality_auto/106e2b_be904aba6a8e4b80876c947b70d95970~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_c56cbc37dc9b44a995523e9d8584bb17f000.jpg/v1/fill/w_540,h_196,al_c,q_80,enc_auto/106e2b_c56cbc37dc9b44a995523e9d8584bb17f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_aef1e98c52aa4432a8ea700045700574~mv2.jpeg/v1/fill/w_980,h_704,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_aef1e98c52aa4432a8ea700045700574~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_788c915e67bc4e6184adfbbb9a19ddd0~mv2.jpeg/v1/fill/w_980,h_704,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_788c915e67bc4e6184adfbbb9a19ddd0~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_4fbef78e71164b758826eef2c0952079~mv2.jpeg/v1/fill/w_980,h_704,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_4fbef78e71164b758826eef2c0952079~mv2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_a141c2f71a0744db92849e64a0b93354f000.jpg/v1/fill/w_540,h_196,al_c,q_80,enc_auto/106e2b_a141c2f71a0744db92849e64a0b93354f000.jpg"
+        ]
+      }
+    ]
   },
   {
     "building_id": "219-snyder-hill-road",
@@ -21624,6 +22693,88 @@
     "units": []
   },
   {
+    "building_id": "228-linden-avenue",
+    "building_key": "228 linden avenue",
+    "address": "228 Linden Ave, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_421480af98ac453e8ffa13290bd89afc~mv2_d_1200_1600_s_2.jpg/v1/fill/w_980,h_1080,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_421480af98ac453e8ffa13290bd89afc~mv2_d_1200_1600_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_d1a4b65dd32e4b6dbaba320a692f2d5c~mv2_d_1200_1600_s_2.jpeg/v1/fill/w_980,h_1080,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_d1a4b65dd32e4b6dbaba320a692f2d5c~mv2_d_1200_1600_s_2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_0148789d27a04d4292ed45613eddb824f000.jpg/v1/fill/w_720,h_192,al_c,q_80,enc_auto/106e2b_0148789d27a04d4292ed45613eddb824f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_91f19533e149452eb6e7bce12d14870d~mv2_d_1302_2663_s_2.jpg/v1/fit/w_147,h_300,q_90,enc_avif,quality_auto/106e2b_91f19533e149452eb6e7bce12d14870d~mv2_d_1302_2663_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_6b027a9bd5694575a7cf0f4e71c95428~mv2.png/v1/fit/w_400,h_300,q_90,enc_avif,quality_auto/106e2b_6b027a9bd5694575a7cf0f4e71c95428~mv2.png",
+      "https://static.wixstatic.com/media/106e2b_dc7046ae4a754c27a59228f1974c4198f003.jpg/v1/fit/w_533,h_300,q_90,enc_avif,quality_auto/106e2b_dc7046ae4a754c27a59228f1974c4198f003.jpg",
+      "https://static.wixstatic.com/media/106e2b_7a0969556d084dd1afa45c3d38c0d1cdf000.jpg/v1/fill/w_384,h_132,al_c,lg_1,q_80,enc_auto/106e2b_7a0969556d084dd1afa45c3d38c0d1cdf000.jpg",
+      "https://static.wixstatic.com/media/106e2b_27c15b56abcd41919d4d950a6cfb4ec6~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_27c15b56abcd41919d4d950a6cfb4ec6~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_97002d5aa34f424e860882ee1c1ec1ee~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_97002d5aa34f424e860882ee1c1ec1ee~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_63a718887e5840bdbd52d0159c438cd9~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_63a718887e5840bdbd52d0159c438cd9~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_4aa7e20a3c5c41168dd20c3f11b1dd8c~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_4aa7e20a3c5c41168dd20c3f11b1dd8c~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_4469bc19ec634cc2bd0d368d361c7098~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_4469bc19ec634cc2bd0d368d361c7098~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_8d785a9cfe2e4f6e9c0422626fdc8fe1~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_8d785a9cfe2e4f6e9c0422626fdc8fe1~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_e6ad835c2dc244dba12e77e0dd56968d~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_e6ad835c2dc244dba12e77e0dd56968d~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_b847661a2fd748ef86979ebc91de3fd0~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_b847661a2fd748ef86979ebc91de3fd0~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_c51b81dcf1bc4c218fb54b8816f05b2b~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_c51b81dcf1bc4c218fb54b8816f05b2b~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_8bd63370fd024907b0603f2267ae8377~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_8bd63370fd024907b0603f2267ae8377~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_ded85f5cf4a3418a8ee366e723f0dd2e~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_ded85f5cf4a3418a8ee366e723f0dd2e~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_126f0e665d294db5930fc3369e3c831b~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_126f0e665d294db5930fc3369e3c831b~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_4f41e7a092af4c1aa576921ce3e9981d~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_4f41e7a092af4c1aa576921ce3e9981d~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_2ff1f7646554442682da18561f086c5b~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_2ff1f7646554442682da18561f086c5b~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_3bf4d1f2fc2549a4ab109aa6ac6def0a~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_3bf4d1f2fc2549a4ab109aa6ac6def0a~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_d63449fdfb6d4ff486939755ac1dca6e~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_d63449fdfb6d4ff486939755ac1dca6e~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_5b48d54f31dd4c8380b91318fe993c17~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_5b48d54f31dd4c8380b91318fe993c17~mv2_d_1536_2048_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_4c699c225e1e44858c5c1f87368bc698~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_4c699c225e1e44858c5c1f87368bc698~mv2_d_1536_2048_s_2.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-228-linden-ave",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/228-linden-ave",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_421480af98ac453e8ffa13290bd89afc~mv2_d_1200_1600_s_2.jpg/v1/fill/w_980,h_1080,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_421480af98ac453e8ffa13290bd89afc~mv2_d_1200_1600_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_d1a4b65dd32e4b6dbaba320a692f2d5c~mv2_d_1200_1600_s_2.jpeg/v1/fill/w_980,h_1080,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/106e2b_d1a4b65dd32e4b6dbaba320a692f2d5c~mv2_d_1200_1600_s_2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_0148789d27a04d4292ed45613eddb824f000.jpg/v1/fill/w_720,h_192,al_c,q_80,enc_auto/106e2b_0148789d27a04d4292ed45613eddb824f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_91f19533e149452eb6e7bce12d14870d~mv2_d_1302_2663_s_2.jpg/v1/fit/w_147,h_300,q_90,enc_avif,quality_auto/106e2b_91f19533e149452eb6e7bce12d14870d~mv2_d_1302_2663_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_6b027a9bd5694575a7cf0f4e71c95428~mv2.png/v1/fit/w_400,h_300,q_90,enc_avif,quality_auto/106e2b_6b027a9bd5694575a7cf0f4e71c95428~mv2.png",
+          "https://static.wixstatic.com/media/106e2b_dc7046ae4a754c27a59228f1974c4198f003.jpg/v1/fit/w_533,h_300,q_90,enc_avif,quality_auto/106e2b_dc7046ae4a754c27a59228f1974c4198f003.jpg",
+          "https://static.wixstatic.com/media/106e2b_7a0969556d084dd1afa45c3d38c0d1cdf000.jpg/v1/fill/w_384,h_132,al_c,lg_1,q_80,enc_auto/106e2b_7a0969556d084dd1afa45c3d38c0d1cdf000.jpg",
+          "https://static.wixstatic.com/media/106e2b_27c15b56abcd41919d4d950a6cfb4ec6~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_27c15b56abcd41919d4d950a6cfb4ec6~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_97002d5aa34f424e860882ee1c1ec1ee~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_97002d5aa34f424e860882ee1c1ec1ee~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_63a718887e5840bdbd52d0159c438cd9~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_63a718887e5840bdbd52d0159c438cd9~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_4aa7e20a3c5c41168dd20c3f11b1dd8c~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_4aa7e20a3c5c41168dd20c3f11b1dd8c~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_4469bc19ec634cc2bd0d368d361c7098~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_4469bc19ec634cc2bd0d368d361c7098~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_8d785a9cfe2e4f6e9c0422626fdc8fe1~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_8d785a9cfe2e4f6e9c0422626fdc8fe1~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_e6ad835c2dc244dba12e77e0dd56968d~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_e6ad835c2dc244dba12e77e0dd56968d~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_b847661a2fd748ef86979ebc91de3fd0~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_b847661a2fd748ef86979ebc91de3fd0~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_c51b81dcf1bc4c218fb54b8816f05b2b~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_c51b81dcf1bc4c218fb54b8816f05b2b~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_8bd63370fd024907b0603f2267ae8377~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_8bd63370fd024907b0603f2267ae8377~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_ded85f5cf4a3418a8ee366e723f0dd2e~mv2_d_1536_2048_s_2.jpg/v1/fit/w_218,h_291,q_90,enc_avif,quality_auto/106e2b_ded85f5cf4a3418a8ee366e723f0dd2e~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_126f0e665d294db5930fc3369e3c831b~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_126f0e665d294db5930fc3369e3c831b~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_4f41e7a092af4c1aa576921ce3e9981d~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_4f41e7a092af4c1aa576921ce3e9981d~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_2ff1f7646554442682da18561f086c5b~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_2ff1f7646554442682da18561f086c5b~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_3bf4d1f2fc2549a4ab109aa6ac6def0a~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_3bf4d1f2fc2549a4ab109aa6ac6def0a~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_d63449fdfb6d4ff486939755ac1dca6e~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_d63449fdfb6d4ff486939755ac1dca6e~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_5b48d54f31dd4c8380b91318fe993c17~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_5b48d54f31dd4c8380b91318fe993c17~mv2_d_1536_2048_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_4c699c225e1e44858c5c1f87368bc698~mv2_d_1536_2048_s_2.jpg/v1/fit/w_182,h_243,q_90,enc_avif,quality_auto/106e2b_4c699c225e1e44858c5c1f87368bc698~mv2_d_1536_2048_s_2.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "23-min-drive-to-cornell-ithaca-cortland-bing-30-min-drive",
     "building_key": "23 min drive to cornell ithaca cortland bing 30 min drive",
     "address": "23 min dr. to Cornell/Ithaca-Cortland/Bing 30 min.dr.",
@@ -22000,6 +23151,120 @@
           "https://images.cdn.appfolio.com/mlr/images/225edcd5-fba7-4028-88bb-7650f70aadcc/large.jpg",
           "https://images.cdn.appfolio.com/mlr/images/6fded166-d31f-4136-9fa7-f69d307e606d/large.jpg",
           "https://images.cdn.appfolio.com/mlr/images/05619ba1-d760-4fdb-8e66-af3c2a56efad/large.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": "230-linden-avenue",
+    "building_key": "230 linden avenue",
+    "address": "230 Linden Ave, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_cc28f17ded02477a84465e03d296568c~mv2.jpg/v1/fill/w_768,h_1006,al_c,q_85,enc_avif,quality_auto/230%20Linden%20Avenue%20Outside_edited.jpg",
+      "https://static.wixstatic.com/media/106e2b_1c03903579624a2ea1033849c7ab22fff000.jpg/v1/fill/w_384,h_180,al_c,lg_1,q_80,enc_auto/106e2b_1c03903579624a2ea1033849c7ab22fff000.jpg",
+      "https://static.wixstatic.com/media/106e2b_1d1da4f7866e48348978fa9a27d98ec6f000.jpg/v1/fill/w_384,h_160,al_c,lg_1,q_80,enc_auto/106e2b_1d1da4f7866e48348978fa9a27d98ec6f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_d682e534ea5a4ace8351f6ef9e5e0ca7f000.jpg/v1/fill/w_720,h_304,al_c,q_80,enc_auto/106e2b_d682e534ea5a4ace8351f6ef9e5e0ca7f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_7b700c19bb234006b7d5f6292d3d735af000.jpg/v1/fill/w_720,h_402,al_c,q_80,enc_auto/106e2b_7b700c19bb234006b7d5f6292d3d735af000.jpg",
+      "https://static.wixstatic.com/media/106e2b_75d321c65aea484d8060fb4e4796ea77~mv2_d_2218_1598_s_2.jpg/v1/fit/w_541,h_390,q_90,enc_avif,quality_auto/106e2b_75d321c65aea484d8060fb4e4796ea77~mv2_d_2218_1598_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_2a3a8f7ee0b6473f9feee04f96d444a0~mv2.png/v1/fit/w_520,h_390,q_90,enc_avif,quality_auto/106e2b_2a3a8f7ee0b6473f9feee04f96d444a0~mv2.png",
+      "https://static.wixstatic.com/media/106e2b_474c6e2a6b634731b2c629bc2317456af003.jpg/v1/fit/w_693,h_390,q_90,enc_avif,quality_auto/106e2b_474c6e2a6b634731b2c629bc2317456af003.jpg",
+      "https://static.wixstatic.com/media/106e2b_1cee3ef6e8234f878a2ac14251de3c29f000.jpg/v1/fill/w_540,h_302,al_c,q_80,enc_auto/106e2b_1cee3ef6e8234f878a2ac14251de3c29f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-230-linden-ave",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/230-linden-ave",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_cc28f17ded02477a84465e03d296568c~mv2.jpg/v1/fill/w_768,h_1006,al_c,q_85,enc_avif,quality_auto/230%20Linden%20Avenue%20Outside_edited.jpg",
+          "https://static.wixstatic.com/media/106e2b_1c03903579624a2ea1033849c7ab22fff000.jpg/v1/fill/w_384,h_180,al_c,lg_1,q_80,enc_auto/106e2b_1c03903579624a2ea1033849c7ab22fff000.jpg",
+          "https://static.wixstatic.com/media/106e2b_1d1da4f7866e48348978fa9a27d98ec6f000.jpg/v1/fill/w_384,h_160,al_c,lg_1,q_80,enc_auto/106e2b_1d1da4f7866e48348978fa9a27d98ec6f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_d682e534ea5a4ace8351f6ef9e5e0ca7f000.jpg/v1/fill/w_720,h_304,al_c,q_80,enc_auto/106e2b_d682e534ea5a4ace8351f6ef9e5e0ca7f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_7b700c19bb234006b7d5f6292d3d735af000.jpg/v1/fill/w_720,h_402,al_c,q_80,enc_auto/106e2b_7b700c19bb234006b7d5f6292d3d735af000.jpg",
+          "https://static.wixstatic.com/media/106e2b_75d321c65aea484d8060fb4e4796ea77~mv2_d_2218_1598_s_2.jpg/v1/fit/w_541,h_390,q_90,enc_avif,quality_auto/106e2b_75d321c65aea484d8060fb4e4796ea77~mv2_d_2218_1598_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_2a3a8f7ee0b6473f9feee04f96d444a0~mv2.png/v1/fit/w_520,h_390,q_90,enc_avif,quality_auto/106e2b_2a3a8f7ee0b6473f9feee04f96d444a0~mv2.png",
+          "https://static.wixstatic.com/media/106e2b_474c6e2a6b634731b2c629bc2317456af003.jpg/v1/fit/w_693,h_390,q_90,enc_avif,quality_auto/106e2b_474c6e2a6b634731b2c629bc2317456af003.jpg",
+          "https://static.wixstatic.com/media/106e2b_1cee3ef6e8234f878a2ac14251de3c29f000.jpg/v1/fill/w_540,h_302,al_c,q_80,enc_auto/106e2b_1cee3ef6e8234f878a2ac14251de3c29f000.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": "232-linden-avenue",
+    "building_key": "232 linden avenue",
+    "address": "232 Linden Ave, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_082595a7c9b54ce580d71056fe277377~mv2.jpeg/v1/fill/w_825,h_1084,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_5607.jpeg",
+      "https://static.wixstatic.com/media/106e2b_eea0a48890184b4390a20aace67b1553~mv2_d_2576_1457_s_2.jpg/v1/fit/w_690,h_390,q_90,enc_avif,quality_auto/106e2b_eea0a48890184b4390a20aace67b1553~mv2_d_2576_1457_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_72e02099e1aa49619f551e0408033505~mv2.png/v1/fit/w_520,h_390,q_90,enc_avif,quality_auto/106e2b_72e02099e1aa49619f551e0408033505~mv2.png",
+      "https://static.wixstatic.com/media/106e2b_a3c41d7d551c4732b4a5c1e4ec825924f003.jpg/v1/fit/w_693,h_390,q_90,enc_avif,quality_auto/106e2b_a3c41d7d551c4732b4a5c1e4ec825924f003.jpg",
+      "https://static.wixstatic.com/media/106e2b_e2ba78603dba4cb283b70c09a86abdce~mv2_d_2066_1235_s_2.jpg/v1/fit/w_652,h_390,q_90,enc_avif,quality_auto/106e2b_e2ba78603dba4cb283b70c09a86abdce~mv2_d_2066_1235_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_076be325edf74499bcc4eee583a74fa4~mv2.png/v1/fit/w_520,h_390,q_90,enc_avif,quality_auto/106e2b_076be325edf74499bcc4eee583a74fa4~mv2.png",
+      "https://static.wixstatic.com/media/106e2b_be0b250b4823456fb1d1060d1079cf5ff003.jpg/v1/fit/w_693,h_390,q_90,enc_avif,quality_auto/106e2b_be0b250b4823456fb1d1060d1079cf5ff003.jpg",
+      "https://static.wixstatic.com/media/106e2b_126538d8a08444c2bb0f0cc292845e10~mv2_d_2232_1675_s_2.jpg/v1/fit/w_520,h_390,q_90,enc_avif,quality_auto/106e2b_126538d8a08444c2bb0f0cc292845e10~mv2_d_2232_1675_s_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_678b28e7db2c4e9e9b61344769e9f0a8~mv2.png/v1/fit/w_520,h_390,q_90,enc_avif,quality_auto/106e2b_678b28e7db2c4e9e9b61344769e9f0a8~mv2.png",
+      "https://static.wixstatic.com/media/106e2b_c3feaca604c54074a1c8d99c708ba797f003.jpg/v1/fit/w_693,h_390,q_90,enc_avif,quality_auto/106e2b_c3feaca604c54074a1c8d99c708ba797f003.jpg",
+      "https://static.wixstatic.com/media/106e2b_4fc96a2b5eb34a69a8f6056959731069f000.jpg/v1/fill/w_720,h_242,al_c,q_80,enc_auto/106e2b_4fc96a2b5eb34a69a8f6056959731069f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_6141d5b865cf4fc3868d17803e721012f000.jpg/v1/fill/w_720,h_242,al_c,q_80,enc_auto/106e2b_6141d5b865cf4fc3868d17803e721012f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_9134094ddbd34b468e0adc247a923419f000.jpg/v1/fill/w_720,h_242,al_c,q_80,enc_auto/106e2b_9134094ddbd34b468e0adc247a923419f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_e3ad626e02e9444eba0b9b0774ae6c40f000.jpg/v1/fill/w_540,h_181,al_c,q_80,enc_auto/106e2b_e3ad626e02e9444eba0b9b0774ae6c40f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_4972f4f803834b07b4dccd8fefb40c32f000.jpg/v1/fill/w_384,h_134,al_c,lg_1,q_80,enc_auto/106e2b_4972f4f803834b07b4dccd8fefb40c32f000.jpg",
+      "https://static.wixstatic.com/media/106e2b_701ff0a3b5a644358fbc691e210ed586f000.jpg/v1/fill/w_540,h_188,al_c,q_80,enc_auto/106e2b_701ff0a3b5a644358fbc691e210ed586f000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-232-linden-ave",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/232-linden-ave",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_082595a7c9b54ce580d71056fe277377~mv2.jpeg/v1/fill/w_825,h_1084,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_5607.jpeg",
+          "https://static.wixstatic.com/media/106e2b_eea0a48890184b4390a20aace67b1553~mv2_d_2576_1457_s_2.jpg/v1/fit/w_690,h_390,q_90,enc_avif,quality_auto/106e2b_eea0a48890184b4390a20aace67b1553~mv2_d_2576_1457_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_72e02099e1aa49619f551e0408033505~mv2.png/v1/fit/w_520,h_390,q_90,enc_avif,quality_auto/106e2b_72e02099e1aa49619f551e0408033505~mv2.png",
+          "https://static.wixstatic.com/media/106e2b_a3c41d7d551c4732b4a5c1e4ec825924f003.jpg/v1/fit/w_693,h_390,q_90,enc_avif,quality_auto/106e2b_a3c41d7d551c4732b4a5c1e4ec825924f003.jpg",
+          "https://static.wixstatic.com/media/106e2b_e2ba78603dba4cb283b70c09a86abdce~mv2_d_2066_1235_s_2.jpg/v1/fit/w_652,h_390,q_90,enc_avif,quality_auto/106e2b_e2ba78603dba4cb283b70c09a86abdce~mv2_d_2066_1235_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_076be325edf74499bcc4eee583a74fa4~mv2.png/v1/fit/w_520,h_390,q_90,enc_avif,quality_auto/106e2b_076be325edf74499bcc4eee583a74fa4~mv2.png",
+          "https://static.wixstatic.com/media/106e2b_be0b250b4823456fb1d1060d1079cf5ff003.jpg/v1/fit/w_693,h_390,q_90,enc_avif,quality_auto/106e2b_be0b250b4823456fb1d1060d1079cf5ff003.jpg",
+          "https://static.wixstatic.com/media/106e2b_126538d8a08444c2bb0f0cc292845e10~mv2_d_2232_1675_s_2.jpg/v1/fit/w_520,h_390,q_90,enc_avif,quality_auto/106e2b_126538d8a08444c2bb0f0cc292845e10~mv2_d_2232_1675_s_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_678b28e7db2c4e9e9b61344769e9f0a8~mv2.png/v1/fit/w_520,h_390,q_90,enc_avif,quality_auto/106e2b_678b28e7db2c4e9e9b61344769e9f0a8~mv2.png",
+          "https://static.wixstatic.com/media/106e2b_c3feaca604c54074a1c8d99c708ba797f003.jpg/v1/fit/w_693,h_390,q_90,enc_avif,quality_auto/106e2b_c3feaca604c54074a1c8d99c708ba797f003.jpg",
+          "https://static.wixstatic.com/media/106e2b_4fc96a2b5eb34a69a8f6056959731069f000.jpg/v1/fill/w_720,h_242,al_c,q_80,enc_auto/106e2b_4fc96a2b5eb34a69a8f6056959731069f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_6141d5b865cf4fc3868d17803e721012f000.jpg/v1/fill/w_720,h_242,al_c,q_80,enc_auto/106e2b_6141d5b865cf4fc3868d17803e721012f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_9134094ddbd34b468e0adc247a923419f000.jpg/v1/fill/w_720,h_242,al_c,q_80,enc_auto/106e2b_9134094ddbd34b468e0adc247a923419f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_e3ad626e02e9444eba0b9b0774ae6c40f000.jpg/v1/fill/w_540,h_181,al_c,q_80,enc_auto/106e2b_e3ad626e02e9444eba0b9b0774ae6c40f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_4972f4f803834b07b4dccd8fefb40c32f000.jpg/v1/fill/w_384,h_134,al_c,lg_1,q_80,enc_auto/106e2b_4972f4f803834b07b4dccd8fefb40c32f000.jpg",
+          "https://static.wixstatic.com/media/106e2b_701ff0a3b5a644358fbc691e210ed586f000.jpg/v1/fill/w_540,h_188,al_c,q_80,enc_auto/106e2b_701ff0a3b5a644358fbc691e210ed586f000.jpg"
         ]
       }
     ]
@@ -25272,6 +26537,55 @@
           "https://images.cdn.appfolio.com/ppmhomes/images/b70c4ed8-9a89-4d56-ab95-216dc4e7c5e6/large.jpg",
           "https://images.cdn.appfolio.com/ppmhomes/images/7f01d9ba-3666-447c-9356-303a184dcbfc/large.jpg",
           "https://images.cdn.appfolio.com/ppmhomes/images/1d174025-eddd-4465-83b4-ba02b39cae46/large.png"
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": "31-hudson-place",
+    "building_key": "31 hudson place",
+    "address": "31 Hudson Pl, Ithaca, NY 14850",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 2,
+    "sources": [
+      "ithacalivingsolutions"
+    ],
+    "images": [
+      "https://images.cdn.appfolio.com/ithacalivingsolutions/images/66da4c85-7a63-4457-b759-f86d6b7dfdab/medium.jpg",
+      "https://images.cdn.appfolio.com/ithacalivingsolutions/images/218b21f2-8880-453b-85c4-5bbb5625026f/medium.jpg"
+    ],
+    "units": [
+      {
+        "id": "ithacalivingsolutions-52",
+        "source": "ithacalivingsolutions",
+        "unit": "",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 1200,
+        "available": "1/1/27 Quite Student Studio AL",
+        "url": "https://ithacalivingsolutions.appfolio.com/listings/detail/12b9c2fb-779d-4306-ac31-b6519b298b08",
+        "images": [
+          "https://images.cdn.appfolio.com/ithacalivingsolutions/images/66da4c85-7a63-4457-b759-f86d6b7dfdab/medium.jpg"
+        ]
+      },
+      {
+        "id": "ithacalivingsolutions-4",
+        "source": "ithacalivingsolutions",
+        "unit": "",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 1100,
+        "available": "1/1/27 Perfect Ithaca Student ",
+        "url": "https://ithacalivingsolutions.appfolio.com/listings/detail/e2a60013-562c-4b6c-a8c8-7a93ba3aba0b",
+        "images": [
+          "https://images.cdn.appfolio.com/ithacalivingsolutions/images/218b21f2-8880-453b-85c4-5bbb5625026f/medium.jpg"
         ]
       }
     ]
@@ -28820,6 +30134,40 @@
           "https://images.craigslist.org/00r0r_kGXBIQ6h3px_0t20CI_600x450.jpg",
           "https://images.craigslist.org/00G0G_gfZiQaG3t3U_0t20CI_600x450.jpg",
           "https://images.craigslist.org/00x0x_i2dmdjGQtUB_0t20CI_600x450.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": "33-hudson-place",
+    "building_key": "33 hudson place",
+    "address": "33 Hudson Pl , Ithaca, NY 14850",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "ithacalivingsolutions"
+    ],
+    "images": [
+      "https://images.cdn.appfolio.com/ithacalivingsolutions/images/acb1be3d-10ee-48d1-a634-5485d13f79cb/medium.jpg"
+    ],
+    "units": [
+      {
+        "id": "ithacalivingsolutions-85",
+        "source": "ithacalivingsolutions",
+        "unit": "",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 1100,
+        "available": "8/1/26 Quiet Student Studio 33",
+        "url": "https://ithacalivingsolutions.appfolio.com/listings/detail/a5b08065-fd2d-4f2c-821e-6c18e53b0346",
+        "images": [
+          "https://images.cdn.appfolio.com/ithacalivingsolutions/images/acb1be3d-10ee-48d1-a634-5485d13f79cb/medium.jpg"
         ]
       }
     ]
@@ -36957,7 +38305,7 @@
   {
     "building_id": "523-east-buffalo-street",
     "building_key": "523 east buffalo street",
-    "address": "523 E Buffalo St, Ithaca, NY",
+    "address": "523 E Buffalo Street, Ithaca, NY 14850",
     "coordinates": {
       "lat": 42.4413612,
       "lng": -76.4905086
@@ -36981,15 +38329,29 @@
       "hoPlazaWalking": 16.533333333333335,
       "hoPlazaDriving": 2.5
     },
-    "num_units": 0,
+    "num_units": 1,
     "sources": [
-      "cuapts"
+      "cuapts",
+      "moll"
     ],
     "images": [
       "https://storage.googleapis.com/cuapts-prod.appspot.com/building-images/523%20E%20Buffalo%20St%201",
       "https://storage.googleapis.com/cuapts-prod.appspot.com/building-images/523%20E%20Buffalo%20St%202"
     ],
-    "units": []
+    "units": [
+      {
+        "id": "moll-61",
+        "source": "moll",
+        "unit": "",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "sqft": 0,
+        "price": 0,
+        "available": "NOW Key Pickup Appointment 523",
+        "url": "https://mollprop.appfolio.com/listings/detail/bdd79ddd-c883-4a1c-b707-31b68ec9794b",
+        "images": []
+      }
+    ]
   },
   {
     "building_id": "523-east-state-street",
@@ -42973,6 +44335,66 @@
     "units": []
   },
   {
+    "building_id": "804-east-blair-street",
+    "building_key": "804 east blair street",
+    "address": "804 East Blair Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_58a25158d12944c99e1ed7a2a8d17cd9~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_58a25158d12944c99e1ed7a2a8d17cd9~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_d993df1f058142568f6b6dab816e2c64~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_d993df1f058142568f6b6dab816e2c64~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_9ad65192991c48319cd4a0d5936c6633~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_9ad65192991c48319cd4a0d5936c6633~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_2cd7dd1ccfdf4e6f9603eca7860e0258~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_2cd7dd1ccfdf4e6f9603eca7860e0258~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_71bdeda976d14fec8b338028216a42cf~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_71bdeda976d14fec8b338028216a42cf~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_aa57f9c4d1434416adc5c9538fefefb6~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_aa57f9c4d1434416adc5c9538fefefb6~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_b9c55dfcda8b452ebd0a6af49f210bb2~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_b9c55dfcda8b452ebd0a6af49f210bb2~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_915b1f39e4be4cbdb29a7876a7d70f01~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_915b1f39e4be4cbdb29a7876a7d70f01~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_022d3cb3bd574d44bc7d84be7abaa803~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_022d3cb3bd574d44bc7d84be7abaa803~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_166f8942e319455ebf8dafed2f35ca34~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_166f8942e319455ebf8dafed2f35ca34~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_4cc7a366f3d742cf8bdf1b1b2fcb5ea8~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_4cc7a366f3d742cf8bdf1b1b2fcb5ea8~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_3851bb56d87b49f5854a8968134365f1~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_3851bb56d87b49f5854a8968134365f1~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_e37f96553b2e434f90872865be739b70~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_e37f96553b2e434f90872865be739b70~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_c82ceac779d34759942a711cb9a12aec~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_c82ceac779d34759942a711cb9a12aec~mv2.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-804-east-blair-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 9,
+        "bathrooms": 3,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/804-east-blair-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_58a25158d12944c99e1ed7a2a8d17cd9~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_58a25158d12944c99e1ed7a2a8d17cd9~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_d993df1f058142568f6b6dab816e2c64~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_d993df1f058142568f6b6dab816e2c64~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_9ad65192991c48319cd4a0d5936c6633~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_9ad65192991c48319cd4a0d5936c6633~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_2cd7dd1ccfdf4e6f9603eca7860e0258~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_2cd7dd1ccfdf4e6f9603eca7860e0258~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_71bdeda976d14fec8b338028216a42cf~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_71bdeda976d14fec8b338028216a42cf~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_aa57f9c4d1434416adc5c9538fefefb6~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_aa57f9c4d1434416adc5c9538fefefb6~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_b9c55dfcda8b452ebd0a6af49f210bb2~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_b9c55dfcda8b452ebd0a6af49f210bb2~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_915b1f39e4be4cbdb29a7876a7d70f01~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_915b1f39e4be4cbdb29a7876a7d70f01~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_022d3cb3bd574d44bc7d84be7abaa803~mv2.jpg/v1/fit/w_616,h_462,q_90,enc_avif,quality_auto/106e2b_022d3cb3bd574d44bc7d84be7abaa803~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_166f8942e319455ebf8dafed2f35ca34~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_166f8942e319455ebf8dafed2f35ca34~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_4cc7a366f3d742cf8bdf1b1b2fcb5ea8~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_4cc7a366f3d742cf8bdf1b1b2fcb5ea8~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_3851bb56d87b49f5854a8968134365f1~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_3851bb56d87b49f5854a8968134365f1~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_e37f96553b2e434f90872865be739b70~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_e37f96553b2e434f90872865be739b70~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_c82ceac779d34759942a711cb9a12aec~mv2.jpg/v1/fit/w_347,h_462,q_90,enc_avif,quality_auto/106e2b_c82ceac779d34759942a711cb9a12aec~mv2.jpg"
+        ]
+      }
+    ]
+  },
+  {
     "building_id": "806-east-state-street",
     "building_key": "806 east state street",
     "address": "806 East State Street, Ithaca, NY",
@@ -43039,6 +44461,62 @@
     ],
     "images": [],
     "units": []
+  },
+  {
+    "building_id": "812-east-state-street",
+    "building_key": "812 east state street",
+    "address": "812 East State Street, Ithaca, NY",
+    "coordinates": {},
+    "area": "",
+    "contact": {},
+    "ratings": {},
+    "reviews": [],
+    "travel_times": {},
+    "num_units": 1,
+    "sources": [
+      "demosjohnny"
+    ],
+    "images": [
+      "https://static.wixstatic.com/media/106e2b_0cbaf94f616c4b97ae02f8f71cd509a3~mv2.jpg/v1/fit/w_612,h_459,q_90,enc_avif,quality_auto/106e2b_0cbaf94f616c4b97ae02f8f71cd509a3~mv2.jpg",
+      "https://static.wixstatic.com/media/106e2b_0a2d12c5fc07409ead9da9df631c81ee~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_0a2d12c5fc07409ead9da9df631c81ee~mv2_d_3024_4032_s_4_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_49e6cf227809409eb3612a3aac2d2f50~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_49e6cf227809409eb3612a3aac2d2f50~mv2_d_3024_4032_s_4_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_612536475717475e89f60ead28c0df1e~mv2_d_3024_4032_s_4_2.jpeg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_612536475717475e89f60ead28c0df1e~mv2_d_3024_4032_s_4_2.jpeg",
+      "https://static.wixstatic.com/media/106e2b_b3d07d8ba8a74f589b53dd1f27b610ff~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_b3d07d8ba8a74f589b53dd1f27b610ff~mv2_d_3024_4032_s_4_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_bd88d91bbd714707ae8d73ddd9974f30~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_612,h_459,q_90,enc_avif,quality_auto/106e2b_bd88d91bbd714707ae8d73ddd9974f30~mv2_d_4032_3024_s_4_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_5093cb3a40814310abc406cdfde3627a~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_612,h_459,q_90,enc_avif,quality_auto/106e2b_5093cb3a40814310abc406cdfde3627a~mv2_d_4032_3024_s_4_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_04b871e15c2f4770b6e1a1533a380880~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_04b871e15c2f4770b6e1a1533a380880~mv2_d_3024_4032_s_4_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_624344fdd8cc4ce185ef1b0f66b0447d~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_612,h_459,q_90,enc_avif,quality_auto/106e2b_624344fdd8cc4ce185ef1b0f66b0447d~mv2_d_4032_3024_s_4_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_78a4ed9050dd4b888908253c87ad47db~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_78a4ed9050dd4b888908253c87ad47db~mv2_d_3024_4032_s_4_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_9c49e4f2452f4847ab81820ef3752e00~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_9c49e4f2452f4847ab81820ef3752e00~mv2_d_3024_4032_s_4_2.jpg",
+      "https://static.wixstatic.com/media/106e2b_995b6b153e29436d83f64d6732a682fff000.jpg/v1/fill/w_980,h_512,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_995b6b153e29436d83f64d6732a682fff000.jpg"
+    ],
+    "units": [
+      {
+        "id": "demosjohnny-812-east-state-street",
+        "source": "demosjohnny",
+        "unit": "",
+        "bedrooms": 6,
+        "bathrooms": 3,
+        "sqft": 0,
+        "price": 0,
+        "available": "",
+        "url": "https://www.demosjohnnycollegetownrentals.com/812-east-state-street",
+        "images": [
+          "https://static.wixstatic.com/media/106e2b_0cbaf94f616c4b97ae02f8f71cd509a3~mv2.jpg/v1/fit/w_612,h_459,q_90,enc_avif,quality_auto/106e2b_0cbaf94f616c4b97ae02f8f71cd509a3~mv2.jpg",
+          "https://static.wixstatic.com/media/106e2b_0a2d12c5fc07409ead9da9df631c81ee~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_0a2d12c5fc07409ead9da9df631c81ee~mv2_d_3024_4032_s_4_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_49e6cf227809409eb3612a3aac2d2f50~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_49e6cf227809409eb3612a3aac2d2f50~mv2_d_3024_4032_s_4_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_612536475717475e89f60ead28c0df1e~mv2_d_3024_4032_s_4_2.jpeg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_612536475717475e89f60ead28c0df1e~mv2_d_3024_4032_s_4_2.jpeg",
+          "https://static.wixstatic.com/media/106e2b_b3d07d8ba8a74f589b53dd1f27b610ff~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_b3d07d8ba8a74f589b53dd1f27b610ff~mv2_d_3024_4032_s_4_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_bd88d91bbd714707ae8d73ddd9974f30~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_612,h_459,q_90,enc_avif,quality_auto/106e2b_bd88d91bbd714707ae8d73ddd9974f30~mv2_d_4032_3024_s_4_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_5093cb3a40814310abc406cdfde3627a~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_612,h_459,q_90,enc_avif,quality_auto/106e2b_5093cb3a40814310abc406cdfde3627a~mv2_d_4032_3024_s_4_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_04b871e15c2f4770b6e1a1533a380880~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_04b871e15c2f4770b6e1a1533a380880~mv2_d_3024_4032_s_4_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_624344fdd8cc4ce185ef1b0f66b0447d~mv2_d_4032_3024_s_4_2.jpg/v1/fit/w_612,h_459,q_90,enc_avif,quality_auto/106e2b_624344fdd8cc4ce185ef1b0f66b0447d~mv2_d_4032_3024_s_4_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_78a4ed9050dd4b888908253c87ad47db~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_78a4ed9050dd4b888908253c87ad47db~mv2_d_3024_4032_s_4_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_9c49e4f2452f4847ab81820ef3752e00~mv2_d_3024_4032_s_4_2.jpg/v1/fit/w_344,h_459,q_90,enc_avif,quality_auto/106e2b_9c49e4f2452f4847ab81820ef3752e00~mv2_d_3024_4032_s_4_2.jpg",
+          "https://static.wixstatic.com/media/106e2b_995b6b153e29436d83f64d6732a682fff000.jpg/v1/fill/w_980,h_512,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/106e2b_995b6b153e29436d83f64d6732a682fff000.jpg"
+        ]
+      }
+    ]
   },
   {
     "building_id": "815-south-aurora-street",
@@ -43485,7 +44963,37 @@
     "sources": [
       "cuapts"
     ],
-    "images": [],
+    "images": [
+      "https://media.apts247.info/tour/a2d4d746847e4b29b509366ab5d9c545/preview/community-amenities-360/Bridge_Thumbnail.jpg",
+      "https://media.apts247.info/tour/12b2df323b164cce9318a017897006ee/preview/community-amenities-360/Community_Thumbnail.jpg",
+      "https://thumbs.apts247.info/resize/?img=https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/galleries/community/village-solar-exterior/0O7A7565.jpg&w=850",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solar-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-home-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/observatory-circle-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/eastgate-apartments-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-home-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/sanctuary-drive-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-community-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-interior-amenities.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-apartments-gourmet-kitchen-options.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/random.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/affordable-housing-in-the-northeast-apartment-features.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/something.jpg",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/1.jpg",
+      "https://images.apts247.info/131220/1920x1080.webp",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-community-amenities.jpg",
+      "https://images.apts247.info/131236/1920x1080.webp",
+      "https://media.apts247.info/6d/6d46f6a92acc44439bf585301777898f/amenity_lists/village-solars-apartment-features.jpg"
+    ],
     "units": []
   },
   {
@@ -43733,7 +45241,29 @@
     "sources": [
       "cuapts"
     ],
-    "images": [],
+    "images": [
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1557341596944-GBD1L88VYN2GNM8NQRPJ/favicon.ico?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1555082626339-PPV2ZZ25N8S1WLYKYT94/921.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1564076638661-W6KXSEETORWX3GEICM3W/921.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1564076638277-FA58LBL56J8UAOTAXHOM/921+Taughannock+Blvd-Early.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1555084237103-Q6CP433LWBYV5LLM2GQA/921+Stairs.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1555084574558-SHX1U9VWBUZ1GQFURG4B/porch.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1555084340179-R4AGPKW15FQM2H28JA5V/IMG_0232.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1555084650737-8ZNGT49MILB5EHKDUVG8/IMG_0239.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1774643176600-FQ9NC64QDCEOMFAOLSQD/IMG_1872.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1555084681104-T2130Y5VCDO5KIMC8QWT/IMG_1871.JPG?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1774643143384-9EPVZDNFJUFUBYNZSJ1O/20210927_095026.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1774643145031-DDD5IKB4T08S1XYVS7CZ/original2.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1555084464309-0SOXDLH6U2Z7UPAPP410/photo11_edited.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1774643146437-C0TO142AFX21D8DMVGG5/original5.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1774643148450-8G4YULJDVNDIUG1CB85E/original8.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1774643233681-J38A37GJQ01KQBKGGFNN/porch.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1774643836229-O0EWPAH07IA84Q0WMMJE/.jpeg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1774643848503-EL4FEUET9ODYEVRTO6OI/IMG_3908.jpg?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1564074521782-ILI2QVZD4C2SQX82GE1X/921_A.gif?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1564074521793-DHEXQ5G714MO1Q129YNK/921_B.gif?format=1500w",
+      "https://images.squarespace-cdn.com/content/v1/5ca3b3c70b77bd15f3369c67/1564074521923-3AZTQMZWJZ1SG0VMNJAX/921_C.gif?format=1500w"
+    ],
     "units": []
   },
   {

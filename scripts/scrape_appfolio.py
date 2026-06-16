@@ -20,6 +20,8 @@ APPFOLIO_PORTALS = {
     'ppmhomes': 'ppmhomes',
     'travishyde': 'travishyde',
     'mlr': 'modernliving',  # Modern Living Rentals (Collegetown)
+    'mollprop': 'moll',  # Moll Properties
+    'ithacalivingsolutions': 'ithacalivingsolutions',  # Ithaca Living Solutions
 }
 
 
@@ -41,7 +43,12 @@ class AppFolioScraper(BaseScraper):
             logger.error(f"AppFolio scrape failed for {self.portal}: {e}")
             return []
 
-        soup = BeautifulSoup(resp.content, 'html.parser')
+        # lxml handles AppFolio's malformed markup far better than
+        # html.parser (which silently stops after the first listing-item).
+        try:
+            soup = BeautifulSoup(resp.content, 'lxml')
+        except Exception:
+            soup = BeautifulSoup(resp.content, 'html.parser')
 
         # Dedupe by the listing's DOM id (AppFolio renders mobile + desktop
         # variants of each card).
@@ -55,7 +62,10 @@ class AppFolioScraper(BaseScraper):
                 seen.add(lid)
             try:
                 listing = self._parse_item(item)
-                if listing and listing['address']:
+                addr = (listing or {}).get('address', '')
+                # Require a real street address (digit + street + Ithaca), not
+                # leftover card text or a drop-box note.
+                if listing and re.search(r'\d', addr) and 'ithaca' in addr.lower():
                     self.listings.append(listing)
             except Exception as e:
                 logger.warning(f"Error parsing AppFolio item: {e}")
@@ -84,8 +94,16 @@ class AppFolioScraper(BaseScraper):
             image = img.get('data-original') or img.get('data-src') or ''
             if image.startswith('//'):
                 image = 'https:' + image
-            if 'place_holder' in image:
+            if 'place_holder' in image or 'no_ph' in image:
                 image = ''
+
+        # Address fallback: pull "<street>, Ithaca, NY <zip>" from the card
+        # text when there's no usable image alt.
+        if not address:
+            m = re.search(r'(\d{1,5}\s+[A-Z][\w .,#&/-]+?,\s*Ithaca,\s*NY\s*\d{5})',
+                          item.get_text(' ', strip=True))
+            if m:
+                address = re.sub(r'\s*-\s*Drop Box', '', m.group(1)).strip()
 
         # --- Rent ---
         price = 0
