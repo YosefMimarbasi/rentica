@@ -98,7 +98,7 @@ def add_coordinates_and_distances(listings: List[Dict]) -> List[Dict]:
     Results are cached in data/geocode_cache.json so repeated builds do not
     re-hit Nominatim for addresses already resolved.
     """
-    geocoder = Nominatim(user_agent="rentica_apartment_scraper")
+    geocoder = Nominatim(user_agent="rentaca_apartment_scraper")
     cache = _load_cache()
     dirty = 0
 

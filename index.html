@@ -2,320 +2,160 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rentica — Ithaca Student Housing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rentaca — Every Ithaca rental, one place</title>
+<meta name="description" content="Browse every student rental in Ithaca — real photos, floorplans, current rent, and reviews across every building. The complete Cornell & Ithaca College housing map.">
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<style>
-  :root {
-    --bg: #0f1115;
-    --panel: #1a1d24;
-    --panel-2: #22262f;
-    --text: #e6e8eb;
-    --muted: #9aa0aa;
-    --accent: #4f9cf9;
-    --accent-2: #2ecc71;
-    --border: #2c313b;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-  }
-  header {
-    padding: 18px 24px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: baseline;
-    gap: 16px;
-    flex-wrap: wrap;
-  }
-  header h1 { margin: 0; font-size: 22px; letter-spacing: -0.5px; }
-  header .tag { color: var(--muted); font-size: 14px; }
-  header .count { margin-left: auto; color: var(--accent-2); font-weight: 600; }
-
-  .layout { display: flex; height: calc(100vh - 61px); }
-  .sidebar {
-    width: 340px;
-    min-width: 340px;
-    background: var(--panel);
-    border-right: 1px solid var(--border);
-    padding: 18px;
-    overflow-y: auto;
-  }
-  .results { flex: 1; display: flex; flex-direction: column; min-width: 0; }
-  #map { height: 320px; width: 100%; border-bottom: 1px solid var(--border); }
-  .cards { flex: 1; overflow-y: auto; padding: 16px; display: grid;
-           grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; align-content: start; }
-
-  .filter-group { margin-bottom: 18px; }
-  .filter-group label { display: block; font-size: 12px; text-transform: uppercase;
-                        letter-spacing: 0.5px; color: var(--muted); margin-bottom: 6px; }
-  .filter-group input[type=number], .filter-group select {
-    width: 100%; padding: 9px 10px; background: var(--panel-2); color: var(--text);
-    border: 1px solid var(--border); border-radius: 8px; font-size: 14px;
-  }
-  .row { display: flex; gap: 8px; }
-  .row > * { flex: 1; }
-  .check { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 14px; color: var(--text); }
-  .check input { width: 16px; height: 16px; accent-color: var(--accent); }
-  .btn {
-    width: 100%; padding: 10px; border: none; border-radius: 8px; cursor: pointer;
-    font-size: 14px; font-weight: 600; background: var(--accent); color: #fff;
-  }
-  .btn.secondary { background: var(--panel-2); color: var(--text); border: 1px solid var(--border); margin-top: 8px; }
-
-  .card {
-    background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
-    overflow: hidden; display: flex; flex-direction: column; transition: border-color .15s;
-  }
-  .card:hover { border-color: var(--accent); }
-  .card .photo { height: 150px; background: var(--panel-2) center/cover no-repeat; position: relative; }
-  .card .photo .pp {
-    position: absolute; bottom: 8px; left: 8px; background: rgba(0,0,0,.75);
-    padding: 4px 8px; border-radius: 6px; font-weight: 700; font-size: 14px;
-  }
-  .card .photo .pp small { color: var(--muted); font-weight: 400; }
-  .card .body { padding: 12px; display: flex; flex-direction: column; gap: 6px; }
-  .card .title { font-size: 14px; font-weight: 600; line-height: 1.3;
-                 display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-  .card .meta { font-size: 13px; color: var(--muted); }
-  .card .specs { display: flex; gap: 8px; flex-wrap: wrap; font-size: 12px; }
-  .card .chip { background: var(--panel-2); padding: 3px 8px; border-radius: 6px; }
-  .card a.view { margin-top: 4px; font-size: 13px; color: var(--accent); text-decoration: none; }
-  .card a.view:hover { text-decoration: underline; }
-  .empty { color: var(--muted); padding: 40px; text-align: center; grid-column: 1/-1; }
-  .loading { color: var(--muted); padding: 40px; text-align: center; grid-column: 1/-1; }
-  @media (max-width: 720px) {
-    .layout { flex-direction: column; height: auto; }
-    .sidebar { width: 100%; min-width: 0; }
-  }
-</style>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏙️</text></svg>">
 </head>
 <body>
-<header>
-  <h1>🏠 Rentica</h1>
-  <span class="tag">Ithaca student housing — every listing, one place</span>
-  <span class="count" id="count">Loading…</span>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="index.html">Rentaca<span class="dot">.</span></a>
+    <div class="nav__links">
+      <a href="#browse">Browse</a>
+      <a href="#map">Map</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="nav__spacer"></div>
+    <span class="nav__stat" id="navStat"></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <h1>Find your place in <span class="grad">Ithaca</span>.</h1>
+  <p class="sub">Every rental, every building — real photos, current rent, floorplans, and resident reviews. Aggregated from across the web into one clean map.</p>
+
+  <div class="searchbar">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>
+    <input id="heroSearch" type="text" placeholder="Search by street, area, or landlord — “Collegetown”, “Aurora St”…" autocomplete="off">
+    <button class="btn btn--primary" id="heroSearchBtn">Search</button>
+  </div>
+
+  <div class="hero__stats" id="heroStats"></div>
 </header>
 
-<div class="layout">
-  <aside class="sidebar">
-    <div class="filter-group">
-      <label>Max price / person ($/mo)</label>
-      <input type="number" id="maxpp" placeholder="e.g. 800" min="0" step="50">
+<!-- TOOLBAR -->
+<div class="toolbar" id="browse">
+  <div class="toolbar__inner">
+    <div class="chips" id="quickChips">
+      <span class="chip" data-area="Collegetown">Collegetown</span>
+      <span class="chip" data-area="Downtown">Downtown</span>
+      <span class="chip" data-area="North Campus">North Campus</span>
+      <span class="chip" data-area="West Campus">West Campus</span>
+      <span class="chip" data-reviews="1">★ Reviewed</span>
     </div>
-    <div class="filter-group">
-      <label>Total rent range ($/mo)</label>
-      <div class="row">
-        <input type="number" id="minprice" placeholder="min" min="0" step="100">
-        <input type="number" id="maxprice" placeholder="max" min="0" step="100">
+    <span class="count" id="count"></span>
+    <div class="spacer"></div>
+    <span class="select-wrap">
+      Sort
+      <select id="sort">
+        <option value="pp">Price / person ↑</option>
+        <option value="price">Total rent ↑</option>
+        <option value="cornell">Nearest Cornell</option>
+        <option value="rating">Top rated</option>
+        <option value="beds">Most bedrooms</option>
+        <option value="units">Most units</option>
+      </select>
+    </span>
+    <button class="chip" id="openFilters">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+      Filters
+    </button>
+  </div>
+</div>
+
+<!-- MAP -->
+<section id="map"></section>
+
+<!-- RESULTS -->
+<main class="wrap section">
+  <div class="grid" id="cards">
+    <div class="state"><div class="spinner"></div>Loading Ithaca’s rental map…</div>
+  </div>
+</main>
+
+<!-- FILTER SHEET -->
+<div class="sheet-backdrop" id="sheetBackdrop"></div>
+<aside class="sheet" id="sheet">
+  <button class="close" id="closeSheet">✕</button>
+  <h3>Filters</h3>
+
+  <div class="field">
+    <label>Max price / person ($ / mo)</label>
+    <input type="number" id="f_maxpp" placeholder="e.g. 900" min="0" step="50">
+  </div>
+  <div class="field">
+    <label>Total rent ($ / mo)</label>
+    <div class="row">
+      <input type="number" id="f_minprice" placeholder="min" min="0" step="100">
+      <input type="number" id="f_maxprice" placeholder="max" min="0" step="100">
+    </div>
+  </div>
+  <div class="field">
+    <label>Bedrooms</label>
+    <div class="seg" id="f_beds">
+      <button data-v="">Any</button>
+      <button data-v="0">Studio</button>
+      <button data-v="1">1+</button>
+      <button data-v="2">2+</button>
+      <button data-v="3">3+</button>
+      <button data-v="4">4+</button>
+      <button data-v="5">5+</button>
+    </div>
+  </div>
+  <div class="field">
+    <label>Area</label>
+    <select id="f_area"><option value="">Any area</option></select>
+  </div>
+  <div class="field">
+    <label>Max distance to Cornell (mi)</label>
+    <input type="number" id="f_dist" placeholder="e.g. 1.5" min="0" step="0.25">
+  </div>
+  <div class="field">
+    <label>Amenities &amp; data</label>
+    <div class="toggles">
+      <label class="toggle"><input type="checkbox" id="f_parking"> Parking</label>
+      <label class="toggle"><input type="checkbox" id="f_laundry"> Laundry</label>
+      <label class="toggle"><input type="checkbox" id="f_ac"> A/C</label>
+      <label class="toggle"><input type="checkbox" id="f_furnished"> Furnished</label>
+      <label class="toggle"><input type="checkbox" id="f_cats"> Cats OK</label>
+      <label class="toggle"><input type="checkbox" id="f_dogs"> Dogs OK</label>
+      <label class="toggle"><input type="checkbox" id="f_photos"> Has photos</label>
+      <label class="toggle"><input type="checkbox" id="f_reviews"> Has reviews</label>
+    </div>
+  </div>
+  <div class="sheet__actions">
+    <button class="btn btn--ghost" id="resetFilters">Reset</button>
+    <button class="btn btn--primary" id="applyFilters">Show results</button>
+  </div>
+</aside>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__row">
+      <div>
+        <strong style="color:var(--text);font-size:15px;">Rentaca<span style="color:var(--accent)">.</span></strong>
+        <div style="margin-top:6px;max-width:46ch;">An independent aggregator of publicly listed Ithaca rentals. Data is collected from public sources — always verify details with the landlord before signing.</div>
+      </div>
+      <div>
+        <div>Data sources</div>
+        <div class="src-list" id="srcList"></div>
       </div>
     </div>
-    <div class="filter-group">
-      <label>Bedrooms (min)</label>
-      <select id="beds">
-        <option value="">Any</option>
-        <option value="0">Studio (0)</option>
-        <option value="1">1+</option>
-        <option value="2">2+</option>
-        <option value="3">3+</option>
-        <option value="4">4+</option>
-        <option value="5">5+</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label>Bathrooms (min)</label>
-      <select id="baths">
-        <option value="">Any</option>
-        <option value="1">1+</option>
-        <option value="2">2+</option>
-        <option value="3">3+</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label>Max distance to Cornell (mi)</label>
-      <input type="number" id="distcornell" placeholder="e.g. 1.5" min="0" step="0.5">
-    </div>
-    <div class="filter-group">
-      <label>Amenities</label>
-      <div class="check"><input type="checkbox" id="parking"><span>Parking</span></div>
-      <div class="check"><input type="checkbox" id="laundry"><span>Laundry (in-unit/building)</span></div>
-      <div class="check"><input type="checkbox" id="ac"><span>Air conditioning</span></div>
-      <div class="check"><input type="checkbox" id="furnished"><span>Furnished</span></div>
-      <div class="check"><input type="checkbox" id="cats"><span>Cats OK</span></div>
-      <div class="check"><input type="checkbox" id="dogs"><span>Dogs OK</span></div>
-    </div>
-    <div class="filter-group">
-      <label>Keyword (address / title)</label>
-      <input type="text" id="kw" placeholder="e.g. Collegetown" style="width:100%;padding:9px 10px;background:var(--panel-2);color:var(--text);border:1px solid var(--border);border-radius:8px;font-size:14px;">
-    </div>
-    <div class="filter-group">
-      <label>Sort by</label>
-      <select id="sort">
-        <option value="pp">Price / person (low→high)</option>
-        <option value="price">Total rent (low→high)</option>
-        <option value="cornell">Distance to Cornell</option>
-        <option value="beds">Bedrooms (high→low)</option>
-        <option value="newest">Newest</option>
-      </select>
-    </div>
-    <button class="btn" id="apply">Apply filters</button>
-    <button class="btn secondary" id="reset">Reset</button>
-  </aside>
-
-  <section class="results">
-    <div id="map"></div>
-    <div class="cards" id="cards">
-      <div class="loading">Loading listings…</div>
-    </div>
-  </section>
-</div>
+    <div style="margin-top:26px;opacity:.8;">Last updated <span id="genDate">—</span> · Not affiliated with Cornell University or Ithaca College.</div>
+  </div>
+</footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script>
-const CORNELL = [42.4534, -76.4735];
-let ALL = [];
-let map, markers;
-
-function money(n){ return n ? '$' + Number(n).toLocaleString() : '—'; }
-
-async function load() {
-  try {
-    const res = await fetch('data/apartments.json', {cache: 'no-store'});
-    ALL = await res.json();
-  } catch (e) {
-    document.getElementById('cards').innerHTML =
-      '<div class="empty">Could not load data/apartments.json.<br>Run <code>python scripts/build_database.py</code> first.</div>';
-    document.getElementById('count').textContent = '';
-    return;
-  }
-  initMap();
-  render(ALL);
-}
-
-function initMap() {
-  map = L.map('map').setView(CORNELL, 13);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '© OpenStreetMap, © CARTO', maxZoom: 19
-  }).addTo(map);
-  L.marker(CORNELL).addTo(map).bindPopup('<b>Cornell University</b>');
-  markers = L.layerGroup().addTo(map);
-}
-
-function getFilters() {
-  const v = id => document.getElementById(id).value;
-  const c = id => document.getElementById(id).checked;
-  return {
-    maxpp: +v('maxpp') || null, minprice: +v('minprice') || null, maxprice: +v('maxprice') || null,
-    beds: v('beds') === '' ? null : +v('beds'), baths: v('baths') === '' ? null : +v('baths'),
-    distcornell: +v('distcornell') || null, parking: c('parking'), laundry: c('laundry'),
-    ac: c('ac'), furnished: c('furnished'), cats: c('cats'), dogs: c('dogs'),
-    kw: v('kw').trim().toLowerCase(), sort: v('sort')
-  };
-}
-
-function applyFilters() {
-  const f = getFilters();
-  let r = ALL.filter(a => {
-    const p = a.pricing || {}, h = a.housing || {}, am = a.amenities || {};
-    if (f.maxpp && (p.per_person_monthly || 1e9) > f.maxpp) return false;
-    if (f.minprice && (p.monthly_rent_total || 0) < f.minprice) return false;
-    if (f.maxprice && (p.monthly_rent_total || 1e9) > f.maxprice) return false;
-    if (f.beds !== null && (h.bedrooms || 0) < f.beds) return false;
-    if (f.baths !== null && (h.bathrooms || 0) < f.baths) return false;
-    if (f.distcornell && (a.distance_to_cornell_miles || 1e9) > f.distcornell) return false;
-    if (f.parking && (!am.parking || am.parking === 'none')) return false;
-    if (f.laundry && !(am.laundry === 'in-unit' || am.laundry === 'in-building')) return false;
-    if (f.ac && !am.air_conditioning) return false;
-    if (f.furnished && !(h.furnished || am.furnished)) return false;
-    if (f.cats && !am.cats_ok) return false;
-    if (f.dogs && !am.dogs_ok) return false;
-    if (f.kw) {
-      const blob = ((a.title||'') + ' ' + (a.address||'')).toLowerCase();
-      if (!blob.includes(f.kw)) return false;
-    }
-    return true;
-  });
-
-  const s = f.sort;
-  r.sort((a,b) => {
-    const pa=a.pricing||{}, pb=b.pricing||{}, ha=a.housing||{}, hb=b.housing||{};
-    if (s==='pp') return (pa.per_person_monthly||1e9)-(pb.per_person_monthly||1e9);
-    if (s==='price') return (pa.monthly_rent_total||1e9)-(pb.monthly_rent_total||1e9);
-    if (s==='cornell') return (a.distance_to_cornell_miles||1e9)-(b.distance_to_cornell_miles||1e9);
-    if (s==='beds') return (hb.bedrooms||0)-(ha.bedrooms||0);
-    if (s==='newest') return (b.listing_info?.posted_date||'').localeCompare(a.listing_info?.posted_date||'');
-    return 0;
-  });
-  render(r);
-}
-
-function render(list) {
-  document.getElementById('count').textContent = list.length + ' listings';
-  const cards = document.getElementById('cards');
-  if (markers) markers.clearLayers();
-
-  if (!list.length) {
-    cards.innerHTML = '<div class="empty">No listings match your filters.</div>';
-    return;
-  }
-
-  const frag = document.createDocumentFragment();
-  list.forEach(a => {
-    const p = a.pricing || {}, h = a.housing || {}, am = a.amenities || {};
-    const img = (a.listing_info?.images || [])[0] || '';
-    const el = document.createElement('div');
-    el.className = 'card';
-    const specs = [];
-    specs.push(`${h.bedrooms||0}BR`);
-    if (h.bathrooms) specs.push(`${h.bathrooms}BA`);
-    if (h.sqft) specs.push(`${h.sqft} ft²`);
-    if (a.distance_to_cornell_miles) specs.push(`${a.distance_to_cornell_miles} mi → Cornell`);
-    const ams = [];
-    if (am.parking && am.parking !== 'none') ams.push('🅿️ ' + am.parking);
-    if (am.laundry) ams.push('🧺 ' + am.laundry);
-    if (am.air_conditioning) ams.push('❄️ A/C');
-    if (h.furnished || am.furnished) ams.push('🛋️ furnished');
-    if (am.cats_ok) ams.push('🐱');
-    if (am.dogs_ok) ams.push('🐶');
-
-    el.innerHTML = `
-      <div class="photo" style="${img ? `background-image:url('${img}')` : ''}">
-        <div class="pp">${money(p.per_person_monthly)}<small>/person</small></div>
-      </div>
-      <div class="body">
-        <div class="title">${(a.title||'Untitled').replace(/</g,'&lt;')}</div>
-        <div class="meta">${money(p.monthly_rent_total)}/mo · ${(a.address||'').replace(/</g,'&lt;')}</div>
-        <div class="specs">${specs.map(s=>`<span class="chip">${s}</span>`).join('')}</div>
-        <div class="specs">${ams.map(s=>`<span class="chip">${s}</span>`).join('')}</div>
-        ${a.listing_info?.url ? `<a class="view" href="${a.listing_info.url}" target="_blank" rel="noopener">View original ↗</a>` : ''}
-      </div>`;
-    frag.appendChild(el);
-
-    const c = a.coordinates || {};
-    if (c.lat && c.lng && markers) {
-      L.marker([c.lat, c.lng]).addTo(markers)
-        .bindPopup(`<b>${money(p.per_person_monthly)}/person</b><br>${(a.title||'').slice(0,60)}<br>${h.bedrooms||0}BR · ${money(p.monthly_rent_total)}/mo`);
-    }
-  });
-  cards.innerHTML = '';
-  cards.appendChild(frag);
-}
-
-document.getElementById('apply').addEventListener('click', applyFilters);
-document.getElementById('reset').addEventListener('click', () => {
-  document.querySelectorAll('.sidebar input').forEach(i => { i.type==='checkbox' ? i.checked=false : i.value=''; });
-  document.getElementById('beds').value=''; document.getElementById('baths').value='';
-  document.getElementById('sort').value='pp';
-  render(ALL);
-});
-document.getElementById('kw').addEventListener('keydown', e => { if (e.key==='Enter') applyFilters(); });
-
-load();
-</script>
+<script src="assets/js/home.js"></script>
 </body>
 </html>

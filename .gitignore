@@ -61,7 +61,13 @@ logs/
 scripts/_*.py
 data/*.backup.json
 data/*.prev.json
+data/apartments.prev*.json
 data/appfolio_detail_cache.json
 data/image_backfill_cache.json
 .tmp_ithaca/
 scripts/ithaca_uids.txt
+
+# stray shell-redirect junk
+/0
+/5}
+/6}

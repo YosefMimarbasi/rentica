@@ -24,7 +24,7 @@ def summarize(apts, neighborhood=None):
         return
 
     print("\n" + "=" * 60)
-    print(f"RENTICA DATABASE STATISTICS  ({len(apts)} listings)")
+    print(f"RENTACA DATABASE STATISTICS  ({len(apts)} listings)")
     print("=" * 60)
 
     # Pricing

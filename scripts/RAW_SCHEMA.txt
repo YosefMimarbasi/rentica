@@ -1,4 +1,4 @@
-RENTICA RAW SCRAPER OUTPUT SCHEMA
+RENTACA RAW SCRAPER OUTPUT SCHEMA
 =================================
 Each scraper writes a JSON array to data/raw/<source>_raw.json
 The normalizer (scripts/normalize_data.py) reads every data/raw/*.json and

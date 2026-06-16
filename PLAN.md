@@ -1,6 +1,6 @@
-# Rentica — Website Plan
+# Rentaca — Website Plan
 
-A planning document for the Rentica web app. Grounded in the data we actually
+A planning document for the Rentaca web app. Grounded in the data we actually
 have: **1,099 units across 499 buildings** (92 multi-unit), a building-centric
 model with images, floorplans, ratings/reviews on 73 buildings, coordinates on
 425 buildings, and monthly rent on 784 units (median $1,800; $998/person).
@@ -16,7 +16,7 @@ CUAPTS is a flat directory of building reviews. Our structural advantage is the
 *"See every unit in every building — with real photos, floorplans, current
 rent, and reviews — in one place."*
 
-| CUAPTS lacks | Rentica has |
+| CUAPTS lacks | Rentaca has |
 |---|---|
 | Units within a building | 92 multi-unit buildings with all units linked |
 | Many photos / floorplans | 92% have photos, building galleries shared across units, 67 floorplans |

@@ -1,7 +1,7 @@
 """CUAPTS (cuapts.org) scraper — Cornell DTI apartment review platform.
 
 CUAPTS exposes a clean, keyless public REST API on its own domain. We pull
-every building plus the data layers Rentica wants and that CUAPTS itself
+every building plus the data layers Rentaca wants and that CUAPTS itself
 surfaces: photos, per-building reviews with detailed star ratings, the
 landlord/owner (name + website/contact), and travel times to campus.
 

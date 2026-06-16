@@ -1,4 +1,4 @@
-# Rentica - Ithaca Apartment Database
+# Rentaca - Ithaca Apartment Database
 
 A comprehensive, student-friendly apartment and housing database for Ithaca, NY. This project aggregates rental information from multiple sources to help students find housing that meets their needs.
 
@@ -170,7 +170,7 @@ All data is stored in JSON format in the `/data` directory:
 ## Directory Structure
 
 ```
-rentica/
+rentaca/
 ├── README.md                 # This file
 ├── index.html                # Interactive web UI (map + filters)
 ├── data/

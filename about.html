@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About — Rentaca</title>
+<meta name="description" content="How Rentaca aggregates Ithaca rental data, what the numbers mean, and how to read pricing.">
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏙️</text></svg>">
+<style>
+  .prose { max-width: 720px; margin: 0 auto; padding: 56px 22px 40px; }
+  .prose h1 { font-size: clamp(34px,5vw,52px); font-weight: 700; letter-spacing: -0.03em; margin: 0 0 10px; }
+  .prose .lede { font-size: 21px; color: var(--muted); margin: 0 0 36px; line-height: 1.4; }
+  .prose h2 { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; margin: 40px 0 12px; }
+  .prose p { color: var(--text-2); margin: 0 0 16px; }
+  .prose ul { color: var(--text-2); padding-left: 22px; }
+  .prose li { margin-bottom: 8px; }
+  .statgrid { display: grid; grid-template-columns: repeat(auto-fit,minmax(140px,1fr)); gap: 16px; margin: 32px 0; }
+  .statcard { background: var(--bg-soft); border: 1px solid var(--line-soft); border-radius: var(--r); padding: 20px; text-align: center; }
+  .statcard .n { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; }
+  .statcard .l { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  .note { background: var(--bg-soft); border-left: 3px solid var(--accent); border-radius: 0 var(--r-sm) var(--r-sm) 0; padding: 16px 20px; margin: 20px 0; font-size: 15px; color: var(--text-2); }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="index.html">Rentaca<span class="dot">.</span></a>
+    <div class="nav__links">
+      <a href="index.html#browse">Browse</a>
+      <a href="index.html#map">Map</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="nav__spacer"></div>
+    <a class="nav__stat" href="index.html">← All listings</a>
+  </div>
+</nav>
+
+<main class="prose">
+  <h1>Every Ithaca rental, honestly aggregated.</h1>
+  <p class="lede">Rentaca pulls public rental listings from across Ithaca into one searchable, building-centric map — so you can compare the whole market without 15 browser tabs.</p>
+
+  <div class="statgrid" id="statgrid"></div>
+
+  <h2>Why building-first?</h2>
+  <p>Most listing sites show you a flat feed of units. Review sites show you buildings but no live availability. Rentaca links them: every unit is grouped under its building, so you can see <em>everything available in a place</em> alongside its photos, floorplans, resident reviews, and walk time to campus — in one view.</p>
+
+  <h2>How pricing is shown</h2>
+  <p>We display the monthly rent exactly as listed at the source, plus a <strong>per-person</strong> figure (total rent ÷ bedrooms) so a 4-bedroom house and a studio can be compared fairly. Where a source only publishes a building-level or starting price, the number reflects that — always confirm the exact rent with the landlord.</p>
+
+  <div class="note">Rents and availability in a college town move weekly. Treat everything here as a strong starting point, not a contract. Click through to the original listing or the landlord's site to verify.</div>
+
+  <h2>Where the data comes from</h2>
+  <p>Listings are aggregated from public sources across the web, including Craigslist, AppFolio-powered property managers, local landlord sites, and the Cornell-affiliated CUAPTS review database. Reviews and star ratings come from CUAPTS; photos and floorplans come from the original listings.</p>
+  <p class="src-list" id="srcList" style="text-transform:capitalize;color:var(--muted)"></p>
+
+  <h2>Trust &amp; limitations</h2>
+  <ul>
+    <li>Not all buildings have photos, pricing, or reviews — coverage varies by source.</li>
+    <li>Image links point to the original hosts and can occasionally expire.</li>
+    <li>Rentaca is an independent project, not affiliated with Cornell University or Ithaca College.</li>
+    <li>This is an aggregator that links back to public sources — it does not handle applications or payments.</li>
+  </ul>
+
+  <p style="margin-top:36px"><a class="btn btn--primary" href="index.html">Browse listings →</a></p>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div style="opacity:.85">Rentaca<span style="color:var(--accent)">.</span> · Last updated <span id="genDate">—</span> · Data from public sources.</div>
+  </div>
+</footer>
+
+<script>
+fetch("data/site.json", { cache: "no-store" }).then((r) => r.json()).then((d) => {
+  const s = d.stats;
+  const cards = [
+    [s.units.toLocaleString(), "listings"],
+    [s.buildings.toLocaleString(), "buildings"],
+    [s.multi_unit, "multi-unit"],
+    [s.sources, "sources"],
+    [s.with_reviews, "reviewed"],
+    ["$" + (s.median_pp || 0).toLocaleString(), "median / person"],
+  ];
+  document.getElementById("statgrid").innerHTML = cards.map(([n, l]) =>
+    `<div class="statcard"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
+  document.getElementById("srcList").textContent = s.source_list.join(" · ");
+  document.getElementById("genDate").textContent = d.generated || "—";
+});
+</script>
+</body>
+</html>
