@@ -66,6 +66,15 @@ def dedup(urls, cap=None):
     return out
 
 
+FLOORPLAN_RE = re.compile(
+    r"floor.?plan|floorplan|site.?plan|/fp[-_0-9]|_fp\.|\bfp\d", re.I)
+
+
+def is_floorplan(url: str) -> bool:
+    fn = re.sub(r"[?&].*$", "", str(url).lower())
+    return bool(FLOORPLAN_RE.search(fn))
+
+
 def li(l, key):
     return l.get("listing_info", {}).get(key, []) or []
 
@@ -73,12 +82,18 @@ def li(l, key):
 def main():
     db = json.load(open(DB, encoding="utf-8"))
 
-    # --- 1. clean each listing's own images (dedup + cap) ---
+    # --- 1. clean each listing's own images; split out any floorplans that
+    #        are hiding in the regular image list (filenames say "floorplan") ---
     for l in db:
         info = l.setdefault("listing_info", {})
         own = li(l, "images")
+        fps = li(l, "floorplan_images")
+        room, plan = [], list(fps)
+        for u in own:
+            (plan if is_floorplan(u) else room).append(u)
         cap = RM_PER_UNIT_CAP if l.get("source") == "ithacarenting" else OWN_CAP
-        info["images"] = dedup(own, cap)
+        info["images"] = dedup(room, cap)
+        info["floorplan_images"] = dedup(plan, 20)
 
     # --- 2. build per-building shared pool + floorplans ---
     by_bld = defaultdict(list)
