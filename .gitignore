@@ -60,4 +60,8 @@ logs/
 # scratch / generated
 scripts/_*.py
 data/*.backup.json
+data/*.prev.json
 data/appfolio_detail_cache.json
+data/image_backfill_cache.json
+.tmp_ithaca/
+scripts/ithaca_uids.txt

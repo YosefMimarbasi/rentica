@@ -1,0 +1,44 @@
+RENTICA RAW SCRAPER OUTPUT SCHEMA
+=================================
+Each scraper writes a JSON array to data/raw/<source>_raw.json
+The normalizer (scripts/normalize_data.py) reads every data/raw/*.json and
+sets source = filename stem minus the trailing "_raw".
+
+Each listing object (raw, pre-normalization) MUST look like:
+
+{
+  "id": "<stable unique id within this source, e.g. the uid or a slug>",
+  "title": "<unit/listing title>",
+  "description": "<full text description>",
+  "address": "<street address>, Ithaca, NY",   // append ", Ithaca, NY" if missing
+  "url": "<canonical listing URL>",
+  "posted_date": "<ISO 8601 datetime>",
+  "coordinates": {},                              // {} ok if unknown
+  "housing": {
+    "bedrooms": <int>,            // studio = 0
+    "bathrooms": <number>,        // may be 1.5 etc
+    "sqft": <int or 0>,
+    "available": "<string e.g. 'Now' or '2026-2027' or ''>"
+  },
+  "pricing": {
+    "monthly_rent_total": <int>,  // if a range, use the LOW end; 0 if unknown
+    "rent_period": "monthly",
+    "security_deposit": <int or 0>,
+    "price_range": "<original range string if applicable, else ''>"
+  },
+  "amenities": { "<amenity_label>": true, ... },  // {} ok
+  "contact": {
+    "company": "<management company name>",
+    "phone": "<phone if shown>",
+    "owner_website": "<source site or owner site>"
+  },
+  "images": [ "<absolute image URL>", ... ]        // CAPTURE EVERY IMAGE incl. floorplans
+}
+
+CRITICAL RULES
+- Capture ALL images for every listing (gallery + floorplans + exterior).
+  Use absolute URLs. De-duplicate.
+- Never invent data. Missing -> 0 / "" / {} / [].
+- Be polite: small delay between requests; reuse one HTTP session / browser.
+- Write valid UTF-8 JSON (json.dump(..., ensure_ascii=False, indent=2)).
+- Print a final summary line: "<source>: N listings, M total images".
