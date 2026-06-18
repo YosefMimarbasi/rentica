@@ -278,7 +278,10 @@
     "building_id": "10-hudson-place",
     "building_key": "10 hudson place",
     "address": "10 Hudson Pl, Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.430147,
+      "lng": -76.494237
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -1114,7 +1117,10 @@
     "building_id": "101-eddy-street",
     "building_key": "101 eddy street",
     "address": "101 Eddy Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.438092,
+      "lng": -76.487042
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -2933,7 +2939,10 @@
     "building_id": "105-eddy-street",
     "building_key": "105 eddy street",
     "address": "105 Eddy Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.438282,
+      "lng": -76.487037
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -3688,7 +3697,10 @@
     "building_id": "105-westbourne-lane",
     "building_key": "105 westbourne lane",
     "address": "105 Westbourne Ln, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.456006,
+      "lng": -76.486667
+    },
     "area": "",
     "contact": {
       "company": "CSP Management",
@@ -6781,7 +6793,10 @@
     "building_id": "111-dryden-road",
     "building_key": "111 dryden road",
     "address": "111 Dryden Road, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.441396,
+      "lng": -76.486801
+    },
     "area": "",
     "contact": {
       "company": "Ithaca Renting Company",
@@ -7723,7 +7738,10 @@
     "building_id": "112-cook-street",
     "building_key": "112 cook street",
     "address": "112 Cook Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439774,
+      "lng": -76.486303
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -8025,7 +8043,10 @@
     "building_id": "112-summit-street",
     "building_key": "112 summit street",
     "address": "112 Summit St, Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.441754,
+      "lng": -76.483319
+    },
     "area": "",
     "contact": {
       "company": "Cardinal Group Management",
@@ -8782,7 +8803,10 @@
     "building_id": "113-college-avenue",
     "building_key": "113 college avenue",
     "address": "113 College Ave, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.438301,
+      "lng": -76.484726
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -9860,7 +9884,10 @@
     "building_id": "115-college-avenue",
     "building_key": "115 college avenue",
     "address": "115 117 College Ave, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.438479,
+      "lng": -76.485107
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -9900,7 +9927,10 @@
     "building_id": "115-cook-street",
     "building_key": "115 cook street",
     "address": "115 Cook Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439362,
+      "lng": -76.486105
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -10155,7 +10185,10 @@
     "building_id": "116-blair-street",
     "building_key": "116 blair street",
     "address": "116 Blair Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.437934,
+      "lng": -76.486135
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -10810,7 +10843,10 @@
     "building_id": "117-renwick-drive",
     "building_key": "117 renwick drive",
     "address": "117 Renwick Drive, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.458775,
+      "lng": -76.495737
+    },
     "area": "",
     "contact": {
       "company": "CSP Management",
@@ -11003,7 +11039,10 @@
     "building_id": "118-blair-street",
     "building_key": "118 blair street",
     "address": "118 Blair Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.438055,
+      "lng": -76.48611
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -11426,7 +11465,10 @@
     "building_id": "119-blair-street",
     "building_key": "119 blair street",
     "address": "119 Blair Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.43838,
+      "lng": -76.485595
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -11804,7 +11846,10 @@
     "building_id": "120-blair-street",
     "building_key": "120 blair street",
     "address": "120 Blair Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.438215,
+      "lng": -76.486135
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -12886,7 +12931,10 @@
     "building_id": "125-east-state-street",
     "building_key": "125 east state street",
     "address": "125 E State St, Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439427,
+      "lng": -76.49787
+    },
     "area": "",
     "contact": {
       "company": "Harold's Square (McGuire Development)",
@@ -13525,7 +13573,10 @@
     "building_id": "127-blair-street",
     "building_key": "127 blair street",
     "address": "127 Blair Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.438917,
+      "lng": -76.485664
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -13695,7 +13746,10 @@
     "building_id": "129-blair-street",
     "building_key": "129 blair street",
     "address": "129 Blair Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439027,
+      "lng": -76.485669
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -13731,7 +13785,10 @@
     "building_id": "130-blair-street",
     "building_key": "130 blair street",
     "address": "130 Blair Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.438979,
+      "lng": -76.486104
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -13881,7 +13938,10 @@
     "building_id": "131-east-green-street",
     "building_key": "131 east green street",
     "address": "131 E Green St, Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.438261,
+      "lng": -76.497582
+    },
     "area": "",
     "contact": {
       "company": "HH Red Stone Properties",
@@ -14741,7 +14801,10 @@
     "building_id": "132-blair-street",
     "building_key": "132 blair street",
     "address": "132 Blair Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439066,
+      "lng": -76.486142
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -14777,7 +14840,10 @@
     "building_id": "132-college-avenue",
     "building_key": "132 college avenue",
     "address": "132 College Ave, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439052,
+      "lng": -76.485293
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -15253,7 +15319,10 @@
     "building_id": "138-linden-avenue",
     "building_key": "138 linden avenue",
     "address": "138 Linden Ave, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439237,
+      "lng": -76.484375
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -15788,7 +15857,10 @@
     "building_id": "151-dryden-road",
     "building_key": "151 dryden road",
     "address": "151 Dryden Road, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.441437,
+      "lng": -76.485798
+    },
     "area": "",
     "contact": {
       "company": "Ithaca Renting Company",
@@ -16124,7 +16196,10 @@
     "building_id": "154-westview-lane",
     "building_key": "154 westview lane",
     "address": "154 Westview Lane, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.426962,
+      "lng": -76.463945
+    },
     "area": "",
     "contact": {
       "company": "CSP Management",
@@ -17389,7 +17464,10 @@
     "building_id": "201-college-avenue",
     "building_key": "201 college avenue",
     "address": "201 College Ave, Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439453,
+      "lng": -76.484805
+    },
     "area": "",
     "contact": {
       "company": "Cardinal Group Management",
@@ -17753,7 +17831,10 @@
     "building_id": "201-hudson-street",
     "building_key": "201 hudson street",
     "address": "201 Hudson Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.437514,
+      "lng": -76.492327
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -18093,7 +18174,10 @@
     "building_id": "202-dryden-road",
     "building_key": "202 dryden road",
     "address": "202 Dryden Rd, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.441738,
+      "lng": -76.484802
+    },
     "area": "",
     "contact": {
       "company": "Ithaca Renting Company",
@@ -19060,7 +19144,10 @@
     "building_id": "205-eddy-street",
     "building_key": "205 eddy street",
     "address": "205 Eddy Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439816,
+      "lng": -76.487069
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -19590,7 +19677,10 @@
     "building_id": "208-dryden-road",
     "building_key": "208 dryden road",
     "address": "208 Dryden Road, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.441939,
+      "lng": -76.484628
+    },
     "area": "",
     "contact": {
       "company": "Ithaca Renting Company",
@@ -20102,7 +20192,10 @@
     "building_id": "209-eddy-street",
     "building_key": "209 eddy street",
     "address": "209 Eddy Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439965,
+      "lng": -76.487097
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -20180,7 +20273,10 @@
     "building_id": "210-dryden-road",
     "building_key": "210 dryden road",
     "address": "210 Dryden Rd, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.44186,
+      "lng": -76.484392
+    },
     "area": "",
     "contact": {
       "company": "Ithaca Renting Company",
@@ -20341,7 +20437,10 @@
     "building_id": "210-hudson-street",
     "building_key": "210 hudson street",
     "address": "210 Hudson Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.437196,
+      "lng": -76.492754
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -20393,7 +20492,10 @@
     "building_id": "210-lake-street",
     "building_key": "210 lake street",
     "address": "210 Lake Street, Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.450747,
+      "lng": -76.493223
+    },
     "area": "",
     "contact": {
       "company": "Auden Ithaca",
@@ -20695,7 +20797,10 @@
     "building_id": "211-eddy-street",
     "building_key": "211 eddy street",
     "address": "211 Eddy Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.440128,
+      "lng": -76.487111
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -21422,7 +21527,10 @@
     "building_id": "214-dryden-road",
     "building_key": "214 dryden road",
     "address": "214 Dryden Road, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.441835,
+      "lng": -76.484234
+    },
     "area": "",
     "contact": {
       "company": "Ithaca Renting Company",
@@ -21911,7 +22019,10 @@
     "building_id": "219-eddy-street",
     "building_key": "219 eddy street",
     "address": "219 Eddy Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.440365,
+      "lng": -76.487108
+    },
     "area": "",
     "contact": {
       "company": "DemosJohnny"
@@ -22105,7 +22216,10 @@
     "building_id": "220-east-state-street",
     "building_key": "220 east state street",
     "address": "220 East State Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.439752,
+      "lng": -76.495959
+    },
     "area": "",
     "contact": {
       "company": "CSP Management",
@@ -23102,7 +23216,10 @@
     "building_id": "228-linden-avenue",
     "building_key": "228 linden avenue",
     "address": "228 Linden Ave, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.440748,
+      "lng": -76.48438
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -23565,7 +23682,10 @@
     "building_id": "230-linden-avenue",
     "building_key": "230 linden avenue",
     "address": "230 Linden Ave, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.440862,
+      "lng": -76.484439
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -23615,7 +23735,10 @@
     "building_id": "232-linden-avenue",
     "building_key": "232 linden avenue",
     "address": "232 Linden Ave, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.440962,
+      "lng": -76.484382
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -25589,7 +25712,10 @@
     "building_id": "306-north-cayuga-street",
     "building_key": "306 north cayuga street",
     "address": "306 North Cayuga St., 1A, Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.441763,
+      "lng": -76.499438
+    },
     "area": "",
     "contact": {
       "company": "Travis Hyde",
@@ -27021,7 +27147,10 @@
     "building_id": "31-hudson-place",
     "building_key": "31 hudson place",
     "address": "31 Hudson Pl, Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.429372,
+      "lng": -76.496114
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -30660,7 +30789,10 @@
     "building_id": "33-hudson-place",
     "building_key": "33 hudson place",
     "address": "33 Hudson Pl, Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.42936,
+      "lng": -76.496219
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -31326,7 +31458,10 @@
     "building_id": "400-stewart-avenue",
     "building_key": "400 stewart avenue",
     "address": "400-404 Stewart Ave, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.455507,
+      "lng": -76.490769
+    },
     "area": "",
     "contact": {
       "company": "CSP Management",
@@ -34152,7 +34287,10 @@
     "building_id": "415-north-tioga-street",
     "building_key": "415 north tioga street",
     "address": "415 N. Tioga Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.443534,
+      "lng": -76.496734
+    },
     "area": "",
     "contact": {
       "company": "CSP Management",
@@ -34398,7 +34536,10 @@
     "building_id": "426-eddy-street",
     "building_key": "426 eddy street",
     "address": "426 Eddy Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.44228,
+      "lng": -76.487716
+    },
     "area": "",
     "contact": {
       "company": "Ithaca Renting Company",
@@ -34804,7 +34945,10 @@
     "building_id": "436-north-aurora-street",
     "building_key": "436 north aurora street",
     "address": "436 North Aurora Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.444264,
+      "lng": -76.496097
+    },
     "area": "",
     "contact": {
       "company": "CSP Management",
@@ -38971,7 +39115,10 @@
     "building_id": "523-east-buffalo-street",
     "building_key": "523 east buffalo street",
     "address": "523 E Buffalo Street, Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.441355,
+      "lng": -76.490511
+    },
     "area": "",
     "contact": {
       "company": "Moll Properties"
@@ -42714,7 +42861,10 @@
     "building_id": "705-east-buffalo-street",
     "building_key": "705 east buffalo street",
     "address": "705 East Buffalo St, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.441356,
+      "lng": -76.488306
+    },
     "area": "",
     "contact": {
       "company": "Ithaca Renting Company",
@@ -43377,7 +43527,10 @@
     "building_id": "708-stewart-avenue",
     "building_key": "708 stewart avenue",
     "address": "708 Stewart Avenue, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.450062,
+      "lng": -76.490816
+    },
     "area": "",
     "contact": {
       "company": "CSP Management",
@@ -45163,7 +45316,10 @@
     "building_id": "812-east-state-street",
     "building_key": "812 east state street",
     "address": "812 East State Street, Ithaca, NY",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.43759,
+      "lng": -76.486119
+    },
     "area": "",
     "contact": {},
     "ratings": {},
@@ -45632,7 +45788,10 @@
     "building_id": "840-hanshaw-road-ithaca",
     "building_key": "840 hanshaw road ithaca",
     "address": "840 Hanshaw Road Ithaca, NY 14850",
-    "coordinates": {},
+    "coordinates": {
+      "lat": 42.469462,
+      "lng": -76.478364
+    },
     "area": "",
     "contact": {
       "company": "CSP Management",
