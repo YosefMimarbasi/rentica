@@ -180,7 +180,7 @@
         <div class="card__addr">${esc(b.address)}</div>
         ${b.area ? `<div class="card__area">${esc(b.area)}</div>` : ""}
         <div class="card__specs">${specChips(b).map((s) => `<span class="spec">${esc(s)}</span>`).join("")}</div>
-        ${foot.length ? `<div class="card__foot"><span>${esc(foot.join(" · "))}</span><span>→</span></div>` : ""}
+        ${foot.length ? `<div class="card__foot"><span>${esc(foot.join(" · "))}</span><span aria-hidden="true">→</span></div>` : ""}
       </div>
     </a>`;
   }

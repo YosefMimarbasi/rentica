@@ -14,6 +14,12 @@
 <meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="assets/css/app.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏙️</text></svg>">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config = { corePlugins: { preflight: false } };</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/dark.css">
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+<script>if(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)document.documentElement.classList.add("sl-theme-dark");</script>
 <style>
   .prose { max-width: 720px; margin: 0 auto; padding: 56px 22px 40px; }
   .prose h1 { font-size: clamp(34px,5vw,52px); font-weight: 700; letter-spacing: -0.03em; margin: 0 0 10px; }
@@ -70,7 +76,8 @@
     <li>This is an aggregator that links back to public sources — it does not handle applications or payments.</li>
   </ul>
 
-  <p style="margin-top:36px"><a class="btn btn--primary" href="index.html">Browse listings →</a></p>
+  <p style="margin-top:36px"><sl-button variant="primary" pill size="large" href="index.html">Browse listings
+    <sl-icon slot="suffix" name="arrow-right"></sl-icon></sl-button></p>
 </main>
 
 <footer class="footer">

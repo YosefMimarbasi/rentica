@@ -435,6 +435,15 @@ button { font-family: inherit; cursor: pointer; }
 .footer a { color: var(--muted); }
 .footer .src-list { margin-top: 12px; line-height: 1.8; text-transform: capitalize; }
 
+/* ---------- Shoelace harmonization (shared across pages) ---------- */
+:root, .sl-theme-dark {
+  --sl-color-primary-600: var(--accent);
+  --sl-color-primary-500: var(--accent);
+  --sl-font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+  --sl-border-radius-medium: 12px;
+  --sl-border-radius-large: 16px;
+}
+
 /* ---------- Responsive ---------- */
 
 /* Tablet / small laptop */
@@ -471,10 +480,11 @@ button { font-family: inherit; cursor: pointer; }
   .hero h1 { letter-spacing: -0.02em; }
   .hero__stats { gap: 26px; margin-top: 32px; }
   .hero__stat .n { font-size: 27px; }
-  .searchbar { flex-wrap: wrap; border-radius: var(--r); padding: 8px 8px 8px 16px; }
-  .searchbar input { flex: 1 1 100%; order: 1; padding: 6px 0; }
-  .searchbar svg { order: 0; }
-  .searchbar .btn { order: 2; width: 100%; }
+  .searchbar { flex-wrap: wrap; border-radius: var(--r); padding: 10px 12px; gap: 8px; }
+  .searchbar sl-icon, .searchbar svg { order: 0; }
+  .searchbar input { flex: 1 1 60%; order: 1; padding: 6px 0; }
+  .searchbar .btn, .searchbar sl-button { order: 2; flex: 1 1 100%; width: 100%; }
+  .searchbar sl-button::part(base) { width: 100%; }
   /* nav: keep links, shrink, allow horizontal scroll */
   .nav { height: auto; }
   .nav__inner { padding: 10px 16px; gap: 14px; overflow-x: auto; scrollbar-width: none; }
