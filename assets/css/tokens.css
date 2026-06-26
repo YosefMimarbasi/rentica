@@ -1,0 +1,82 @@
+/* ===========================================================================
+   Rentaca — Minimalist Design Tokens
+   ---------------------------------------------------------------------------
+   White canvas · near-black ink · Cornell Red as the single primary accent
+   (used sparingly). Generous whitespace, hairline borders, quiet motion.
+   Cornell palette only; supporting hues retired from prominent use — Cornell
+   Red is the accent, Deep Maroon appears only as the red hover state.
+
+   Semantic var names match the legacy contract so home.js / building.js render
+   unchanged.
+   =========================================================================== */
+
+:root {
+  /* ---- Cornell core ---- */
+  --cornell-red:   #B31B1B;   /* single primary accent */
+  --cornell-black: #000000;
+  --cornell-white: #FFFFFF;
+  --deep-maroon:   #6E0F0F;   /* red hover only */
+
+  /* ---- Neutral ramp ---- */
+  --ink:       #1A1A1A;   /* primary text (17:1 on white) */
+  --gray-90:   #1F1F1F;
+  --gray-70:   #595959;   /* muted text — AA on white (6.9:1) */
+  --gray-50:   #8A8A8A;   /* secondary/large text */
+  --gray-30:   #C9C9C9;   /* borders */
+  --line-100:  #ECECEC;   /* hairlines */
+  --line-50:   #F4F4F4;   /* faint fills / hover wells */
+
+  /* ---- Semantic roles (consumed by app.css) ---- */
+  --bg:         var(--cornell-white);
+  --bg-soft:    #FBFBFB;
+  --bg-tint:    #F4F4F4;
+  --surface:    var(--cornell-white);
+  --text:       var(--ink);
+  --text-2:     #333333;
+  --muted:      var(--gray-70);
+  --muted-2:    var(--gray-50);
+  --line:       var(--line-100);
+  --line-soft:  var(--line-100);
+  --accent:       var(--cornell-red);
+  --accent-hover: var(--deep-maroon);
+  --accent-press: var(--deep-maroon);
+  --green:        var(--gray-70);   /* "available" → quiet neutral */
+  --amber:        var(--cornell-red);
+  --star:         var(--cornell-red);
+
+  /* ---- Type (single family, refined) ---- */
+  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body:    "Plus Jakarta Sans", system-ui, sans-serif;
+  --fs-hero:   clamp(40px, 6vw, 76px);
+  --fs-h1:     clamp(30px, 4.4vw, 52px);
+  --fs-h2:     clamp(23px, 2.8vw, 34px);
+  --fs-h3:     clamp(17px, 1.7vw, 20px);
+  --fs-lead:   clamp(17px, 1.9vw, 21px);
+  --fs-body:   17px;
+  --fs-small:  13.5px;
+  --fs-micro:  12px;
+  --lh-tight:  1.05;
+  --lh-body:   1.55;
+
+  /* ---- Spacing (8px baseline) ---- */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 24px; --sp-6: 32px; --sp-7: 48px; --sp-8: 64px; --sp-9: 96px;
+  --maxw: 1200px;
+  --nav-h: 60px;
+
+  /* ---- Radius (soft, restrained) ---- */
+  --r-sm: 8px;
+  --r:    12px;
+  --r-lg: 16px;
+  --r-xl: 20px;
+
+  /* ---- Elevation (soft neutral, no color tint) ---- */
+  --sh-1: 0 1px 2px rgba(0,0,0,.04);
+  --sh-2: 0 6px 20px rgba(0,0,0,.07);
+  --sh-3: 0 18px 50px rgba(0,0,0,.14);
+
+  /* ---- Motion ---- */
+  --ease: cubic-bezier(.4, 0, .2, 1);
+  --ease-spring: cubic-bezier(.2, .7, .2, 1);
+  --dur-1: .16s; --dur-2: .24s; --dur-3: .5s;
+}

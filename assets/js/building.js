@@ -230,7 +230,7 @@
     L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
       attribution: "© OSM, © CARTO", maxZoom: 19,
     }).addTo(map);
-    L.circleMarker([b.lat, b.lng], { radius: 10, color: "#fff", weight: 2, fillColor: "#0071e3", fillOpacity: 1 })
+    L.circleMarker([b.lat, b.lng], { radius: 10, color: "#fff", weight: 2, fillColor: "#B31B1B", fillOpacity: 1 })
       .addTo(map).bindPopup(esc(b.address));
     L.marker([42.4534, -76.4735], {
       icon: L.divIcon({ className: "", html: `<div style="background:#b31b1b;color:#fff;font-size:10px;font-weight:700;padding:3px 7px;border-radius:980px;white-space:nowrap">Cornell</div>`, iconSize: [0, 0], iconAnchor: [20, 10] }),

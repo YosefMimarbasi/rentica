@@ -70,17 +70,17 @@
       className: "", html: `<div style="background:${color};color:#fff;font-size:11px;font-weight:700;padding:4px 9px;border-radius:980px;box-shadow:0 2px 8px rgba(0,0,0,.3);white-space:nowrap">${txt}</div>`,
       iconSize: [0, 0], iconAnchor: [22, 12],
     });
-    L.marker(CORNELL, { icon: ico("Cornell", "#b31b1b") }).addTo(map);
-    L.marker(IC, { icon: ico("Ithaca College", "#1d8a4e") }).addTo(map);
+    L.marker(CORNELL, { icon: ico("Cornell", "#B31B1B") }).addTo(map);
+    L.marker(IC, { icon: ico("Ithaca College", "#1A1A1A") }).addTo(map);
     cluster = L.layerGroup().addTo(map);
   }
 
   function ppColor(pp) {
-    if (!pp) return "#86868b";
-    if (pp < 700) return "#1d8a4e";
-    if (pp < 1000) return "#0071e3";
-    if (pp < 1400) return "#b25000";
-    return "#c0392b";
+    if (!pp) return "#C9C9C9";        // gray-30 (unknown)
+    if (pp < 700) return "#1A1A1A";   // ink (best value)
+    if (pp < 1000) return "#595959";  // gray-70
+    if (pp < 1400) return "#8A8A8A";  // gray-50
+    return "#B31B1B";                 // cornell red (priciest — the one accent)
   }
 
   function drawMarkers(list) {

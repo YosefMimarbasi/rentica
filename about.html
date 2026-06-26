@@ -6,7 +6,7 @@
 <title>About — Rentaca</title>
 <meta name="description" content="How Rentaca aggregates Ithaca rental data, what the numbers mean, and how to read pricing.">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0b0b0c" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0E0E0F" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Rentaca">
 <meta property="og:title" content="About — Rentaca">
@@ -23,37 +23,32 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/dark.css">
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
 <script>if(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)document.documentElement.classList.add("sl-theme-dark");</script>
-<style>
-  .prose { max-width: 720px; margin: 0 auto; padding: 56px 22px 40px; }
-  .prose h1 { font-size: clamp(34px,5vw,52px); font-weight: 700; letter-spacing: -0.03em; margin: 0 0 10px; }
-  .prose .lede { font-size: 21px; color: var(--muted); margin: 0 0 36px; line-height: 1.4; }
-  .prose h2 { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; margin: 40px 0 12px; }
-  .prose p { color: var(--text-2); margin: 0 0 16px; }
-  .prose ul { color: var(--text-2); padding-left: 22px; }
-  .prose li { margin-bottom: 8px; }
-  .statgrid { display: grid; grid-template-columns: repeat(auto-fit,minmax(140px,1fr)); gap: 16px; margin: 32px 0; }
-  .statcard { background: var(--bg-soft); border: 1px solid var(--line-soft); border-radius: var(--r); padding: 20px; text-align: center; }
-  .statcard .n { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; }
-  .statcard .l { font-size: 13px; color: var(--muted); margin-top: 4px; }
-  .note { background: var(--bg-soft); border-left: 3px solid var(--accent); border-radius: 0 var(--r-sm) var(--r-sm) 0; padding: 16px 20px; margin: 20px 0; font-size: 15px; color: var(--text-2); }
-</style>
 </head>
 <body>
 
-<nav class="nav">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<nav class="nav" aria-label="Primary">
+  <div class="nav__util">
+    <div class="nav__util-inner">
+      <span>Ithaca, NY · Cornell &amp; Ithaca College housing</span>
+      <span class="sp"></span>
+      <a href="index.html">← All listings</a>
+    </div>
+  </div>
   <div class="nav__inner">
     <a class="nav__brand" href="index.html">Rentaca<span class="dot">.</span></a>
     <div class="nav__links">
       <a href="index.html#browse">Browse</a>
       <a href="index.html#map">Map</a>
-      <a href="about.html">About</a>
+      <a href="about.html" aria-current="page">About</a>
     </div>
     <div class="nav__spacer"></div>
-    <a class="nav__stat" href="index.html">← All listings</a>
   </div>
 </nav>
 
-<main class="prose">
+<main class="prose" id="main">
+  <span class="kicker">About Rentaca</span>
   <h1>Every Ithaca rental, honestly aggregated.</h1>
   <p class="lede">Rentaca pulls public rental listings from across Ithaca into one searchable, building-centric map — so you can compare the whole market without 15 browser tabs.</p>
 
