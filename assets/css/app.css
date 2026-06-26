@@ -190,6 +190,11 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
 .mappop .a { font-weight: 600; font-size: 14px; color: var(--ink); }
 .mappop .p { color: var(--muted); font-size: 13px; margin-top: 2px; }
 .mappop a { font-size: 13px; font-weight: 600; }
+/* Leaflet UI uses a default blue (#0078A8) for links/controls — neutralize it */
+.leaflet-container a { color: var(--accent); }
+.leaflet-control-zoom a { color: var(--ink) !important; }
+.leaflet-control-attribution a { color: var(--gray-70) !important; }
+.leaflet-bar a:hover { background: var(--line-50); }
 
 /* ---------- Empty / loading ---------- */
 .state { grid-column: 1/-1; text-align: center; padding: 80px 20px; color: var(--muted); }
@@ -329,12 +334,25 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing:
 .note { background: var(--bg-soft); border-left: 3px solid var(--accent); border-radius: 0 var(--r-sm) var(--r-sm) 0; padding: 16px 20px; margin: 20px 0; font-size: 15px; color: var(--text-2); }
 
 /* ===========================================================================
-   Shoelace harmonization
+   Shoelace harmonization — remap the ENTIRE primary ramp to Cornell red so no
+   default sky-blue leaks into badges, switches, focus rings, or button states.
    =========================================================================== */
-:root, .sl-theme-dark {
-  --sl-color-primary-600: var(--accent);
-  --sl-color-primary-500: var(--accent);
-  --sl-color-primary-700: var(--deep-maroon);
+:root:root, :root:root.sl-theme-dark {
+  --sl-color-primary-50:  #fcf0f0;
+  --sl-color-primary-100: #f6d4d4;
+  --sl-color-primary-200: #eca3a3;
+  --sl-color-primary-300: #e07373;
+  --sl-color-primary-400: #cf4040;
+  --sl-color-primary-500: #B31B1B;  /* Cornell red */
+  --sl-color-primary-600: #B31B1B;
+  --sl-color-primary-700: #6E0F0F;  /* deep maroon */
+  --sl-color-primary-800: #570c0c;
+  --sl-color-primary-900: #3f0808;
+  --sl-color-primary-950: #2a0505;
+  /* focus ring → red, not default blue */
+  --sl-color-primary-text: #fff;
+  --sl-focus-ring-color: rgba(179,27,27,.35);
+  --sl-input-focus-ring-color: rgba(179,27,27,.25);
   --sl-font-sans: var(--font-body);
   --sl-border-radius-medium: var(--r-sm);
   --sl-border-radius-large: var(--r);
