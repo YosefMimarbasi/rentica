@@ -1,82 +1,96 @@
 /* ===========================================================================
-   Rentaca — Minimalist Design Tokens
+   Rentaca — Neumorphic (Soft UI) Design Tokens — Red / White / Black only
    ---------------------------------------------------------------------------
-   White canvas · near-black ink · Cornell Red as the single primary accent
-   (used sparingly). Generous whitespace, hairline borders, quiet motion.
-   Cornell palette only; supporting hues retired from prominent use — Cornell
-   Red is the accent, Deep Maroon appears only as the red hover state.
+   One continuous "material" surface. Elements are pushed in/out of it with
+   dual soft shadows (light highlight + dark shadow cast from the same base
+   tone) instead of borders or flat panels. Cornell Red is the sole accent —
+   every red element is its own soft red "material," never a flat wash.
 
-   Semantic var names match the legacy contract so home.js / building.js render
-   unchanged.
+   Semantic var names match the legacy contract so home.js / building.js
+   render unchanged.
    =========================================================================== */
 
 :root {
-  /* ---- Cornell core ---- */
-  --cornell-red:   #B31B1B;   /* single primary accent */
-  --cornell-black: #000000;
-  --cornell-white: #FFFFFF;
-  --deep-maroon:   #6E0F0F;   /* red hover only */
+  /* ---- Palette: Red / White / Black — nothing else ---- */
+  --red:      #B31B1B;   /* Cornell red — the one accent */
+  --red-hi:   #D8433F;   /* lighter red — highlight side of red shadow */
+  --red-lo:   #7A1010;   /* deep maroon — shadow side of red shadow */
+  --ink:      #1A1A1A;
+  --paper:    #FFFFFF;
 
-  /* ---- Neutral ramp ---- */
-  --ink:       #1A1A1A;   /* primary text (17:1 on white) */
-  --gray-90:   #1F1F1F;
-  --gray-70:   #595959;   /* muted text — AA on white (6.9:1) */
-  --gray-50:   #8A8A8A;   /* secondary/large text */
-  --gray-30:   #C9C9C9;   /* borders */
-  --line-100:  #ECECEC;   /* hairlines */
-  --line-50:   #F4F4F4;   /* faint fills / hover wells */
+  /* ---- The material: single-tone neumorphic surface (light mode) ---- */
+  --base:     #EEEEEE;
+  --base-rgb: 238,238,238;
+  --gray-90:  #262626;
+  --gray-70:  #4A4A4A;
+  --gray-50:  #5C5C5C;   /* darkened from #6E6E6E — was 4.39:1 on the base surface, fails WCAG AA text */
+  --gray-30:  #7E7E7E;   /* decorative/icon tier only — real text should use --muted, not --muted-2 */
+  --gray-15:  #D6D6D6;
 
   /* ---- Semantic roles (consumed by app.css) ---- */
-  --bg:         var(--cornell-white);
-  --bg-soft:    #FBFBFB;
-  --bg-tint:    #F4F4F4;
-  --surface:    var(--cornell-white);
+  --bg:         var(--base);
+  --bg-soft:    var(--base);   /* same tone — no section banding/seams */
+  --bg-tint:    #E3E3E3;
+  --surface:    var(--base);
   --text:       var(--ink);
   --text-2:     #333333;
-  --muted:      var(--gray-70);
-  --muted-2:    var(--gray-50);
-  --line:       var(--line-100);
-  --line-soft:  var(--line-100);
-  --accent:       var(--cornell-red);
-  --accent-hover: var(--deep-maroon);
-  --accent-press: var(--deep-maroon);
-  --green:        var(--gray-70);   /* "available" → quiet neutral */
-  --amber:        var(--cornell-red);
-  --star:         var(--cornell-red);
+  --muted:      var(--gray-50);
+  --muted-2:    var(--gray-30);
+  --line:       transparent;   /* edges are drawn with shadow, not borders */
+  --line-100:   #DDDDDD;
+  --line-soft:  rgba(0,0,0,.07);
+  --accent:        var(--red);
+  --accent-hover:  #98221F;
+  --accent-press:  #7A1010;
+  --green-role:    var(--ink);
+  --amber:         var(--red);
+  --star:          var(--red);
 
-  /* ---- Type (single family, refined) ---- */
+  /* ---- Neumorphic shadow pairs (the core mechanic) ---- */
+  --ne-d: rgba(0,0,0,.16);
+  --ne-l: rgba(255,255,255,.9);
+  --ne-out-sm: 4px 4px 9px var(--ne-d), -4px -4px 9px var(--ne-l);
+  --ne-out:    7px 7px 16px var(--ne-d), -7px -7px 16px var(--ne-l);
+  --ne-out-lg: 12px 12px 28px var(--ne-d), -10px -10px 24px var(--ne-l);
+  --ne-in-sm:  inset 3px 3px 6px var(--ne-d), inset -3px -3px 6px var(--ne-l);
+  --ne-in:     inset 5px 5px 11px var(--ne-d), inset -5px -5px 11px var(--ne-l);
+  --ne-red-out: 6px 6px 14px rgba(90,12,12,.5), -4px -4px 12px rgba(216,67,63,.4);
+  --ne-red-in:  inset 4px 4px 9px rgba(90,12,12,.55), inset -3px -3px 8px rgba(216,67,63,.35);
+  --ne-focus:   0 0 0 3px rgba(179,27,27,.28);
+
+  /* legacy shadow aliases still referenced by a few components */
+  --sh-1: var(--ne-out-sm);
+  --sh-2: var(--ne-out);
+  --sh-3: var(--ne-out-lg);
+
+  /* ---- Type — calm and rounded, not oversized ---- */
   --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
   --font-body:    "Plus Jakarta Sans", system-ui, sans-serif;
-  --fs-hero:   clamp(40px, 6vw, 76px);
+  --fs-hero:   clamp(40px, 7vw, 84px);
   --fs-h1:     clamp(30px, 4.4vw, 52px);
-  --fs-h2:     clamp(23px, 2.8vw, 34px);
-  --fs-h3:     clamp(17px, 1.7vw, 20px);
-  --fs-lead:   clamp(17px, 1.9vw, 21px);
-  --fs-body:   17px;
+  --fs-h2:     clamp(24px, 3.2vw, 38px);
+  --fs-h3:     18px;
+  --fs-lead:   clamp(17px, 1.8vw, 21px);
+  --fs-body:   16px;
   --fs-small:  13.5px;
   --fs-micro:  12px;
-  --lh-tight:  1.05;
+  --lh-tight:  1.06;
   --lh-body:   1.55;
 
   /* ---- Spacing (8px baseline) ---- */
   --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px;
   --sp-5: 24px; --sp-6: 32px; --sp-7: 48px; --sp-8: 64px; --sp-9: 96px;
-  --maxw: 1200px;
-  --nav-h: 60px;
+  --maxw: 1240px;
+  --nav-h: 64px;
 
-  /* ---- Radius (soft, restrained) ---- */
-  --r-sm: 8px;
-  --r:    12px;
-  --r-lg: 16px;
-  --r-xl: 20px;
-
-  /* ---- Elevation (soft neutral, no color tint) ---- */
-  --sh-1: 0 1px 2px rgba(0,0,0,.04);
-  --sh-2: 0 6px 20px rgba(0,0,0,.07);
-  --sh-3: 0 18px 50px rgba(0,0,0,.14);
+  /* ---- Radius — soft, rounded, no sharp corners ---- */
+  --r-sm: 14px;
+  --r:    20px;
+  --r-lg: 28px;
+  --r-xl: 36px;
 
   /* ---- Motion ---- */
   --ease: cubic-bezier(.4, 0, .2, 1);
-  --ease-spring: cubic-bezier(.2, .7, .2, 1);
-  --dur-1: .16s; --dur-2: .24s; --dur-3: .5s;
+  --ease-spring: cubic-bezier(.2, .8, .2, 1.1);
+  --dur-1: .16s; --dur-2: .26s; --dur-3: .55s;
 }

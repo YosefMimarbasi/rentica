@@ -92,7 +92,7 @@
       const m = L.circleMarker([b.lat, b.lng], {
         radius: 7, color: "#fff", weight: 1.5, fillColor: ppColor(pp), fillOpacity: 0.92,
       }).addTo(cluster);
-      const img = b.img ? `<img src="${esc(b.img)}" loading="lazy" onerror="this.style.display='none'">` : "";
+      const img = b.img && !/favicon/i.test(b.img) ? `<img src="${esc(b.img)}" loading="lazy" onerror="this.style.display='none'">` : "";
       m.bindPopup(
         `<div class="mappop">${img}<div class="a">${esc(b.address)}</div>` +
         `<div class="p">${pp ? money(pp) + "/person · " : ""}${b.num_units} unit${b.num_units > 1 ? "s" : ""}${b.rating ? " · ★" + b.rating : ""}</div>` +
@@ -159,7 +159,7 @@
   function card(b) {
     const pp = b.pp_min;
     const tot = b.price_min;
-    const img = b.img
+    const img = b.img && !/favicon/i.test(b.img)
       ? `<img src="${esc(b.img)}" loading="lazy" alt="${esc(b.address)}" onerror="this.parentNode.innerHTML='<div class=ph>No photo</div>'">`
       : '<div class="ph">No photo yet</div>';
     const unitsBadge = b.num_units > 1

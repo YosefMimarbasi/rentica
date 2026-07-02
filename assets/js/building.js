@@ -41,7 +41,7 @@
   }
 
   function gallery(b) {
-    const imgs = b.images || [];
+    const imgs = (b.images || []).filter((src) => !/favicon/i.test(src));
     if (!imgs.length) {
       return `<div class="gallery gallery--single"><div class="ph" style="display:grid;place-items:center;height:340px;background:var(--bg-tint);color:var(--muted-2)">No photos yet</div></div>`;
     }
@@ -210,7 +210,7 @@
 
   function similarPanel(b, all) {
     if (!b.area && b.dist_cornell == null) return "";
-    const peers = all.filter((x) => x.id !== b.id && x.img &&
+    const peers = all.filter((x) => x.id !== b.id && x.img && !/favicon/i.test(x.img) &&
       (b.area ? x.area === b.area : Math.abs((x.dist_cornell || 99) - (b.dist_cornell || 0)) < 0.4))
       .slice(0, 3);
     if (!peers.length) return "";
