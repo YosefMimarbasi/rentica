@@ -122,6 +122,15 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; letter-spacing:
 .hero__bg .blob--1 { width: 62vw; height: 62vw; top: -20vw; left: -12vw; background: radial-gradient(circle at 35% 35%, var(--red-hi), transparent 70%); animation: blobDrift1 8s ease-in-out infinite alternate; }
 .hero__bg .blob--2 { width: 52vw; height: 52vw; bottom: -22vw; right: -14vw; background: radial-gradient(circle at 60% 40%, var(--red-lo), transparent 70%); animation: blobDrift2 9s ease-in-out infinite alternate; }
 .hero__bg .blob--3 { width: 42vw; height: 42vw; top: 28%; left: 55%; background: radial-gradient(circle at 50% 50%, #fff, transparent 72%); opacity: .12; animation: blobDrift3 7s ease-in-out infinite alternate; }
+/* Dot field — subtle orbiting-particle texture over the blobs, white on red */
+.hero__bg .dots {
+  position: absolute; inset: -20px;
+  background-image: radial-gradient(rgba(255,255,255,.4) 1.4px, transparent 1.6px);
+  background-size: 34px 34px;
+  opacity: .3;
+  animation: dotDrift 16s linear infinite;
+}
+@keyframes dotDrift { from { transform: translate(0,0); } to { transform: translate(34px, 34px); } }
 @keyframes blobDrift1 { from { transform: translate(0,0) scale(1) rotate(0deg); opacity: .55; } to { transform: translate(4%,6%) scale(1.12) rotate(8deg); opacity: .8; } }
 @keyframes blobDrift2 { from { transform: translate(0,0) scale(1) rotate(0deg); opacity: .5; } to { transform: translate(-5%,-4%) scale(1.15) rotate(-10deg); opacity: .75; } }
 @keyframes blobDrift3 { from { transform: translate(0,0) scale(1); opacity: .08; } to { transform: translate(-6%,4%) scale(1.2); opacity: .18; } }
@@ -204,12 +213,24 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; letter-spacing:
 .card__media { position: relative; aspect-ratio: 4 / 3; background: var(--bg-tint); overflow: hidden; }
 .card__media img { width: 100%; height: 100%; object-fit: cover; transition: transform var(--dur-3) var(--ease); }
 .card:hover .card__media img { transform: scale(1.04); }
-.card__media .ph { width: 100%; height: 100%; display: grid; place-items: center; color: var(--muted); background: var(--bg-tint); font-size: 13px; }
-.badge { position: absolute; font-size: 12px; font-weight: 700; padding: 5px 11px; border-radius: 980px; }
+/* Transparent red fade — brand tint over cards that have a real photo, bottom-weighted for badge legibility */
+.card__media:has(img)::after {
+  content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+  background: linear-gradient(to top, rgba(179,27,27,.4), rgba(179,27,27,.06) 45%, transparent 68%);
+}
+.card:hover .card__media:has(img)::after { background: linear-gradient(to top, rgba(179,27,27,.48), rgba(179,27,27,.08) 45%, transparent 68%); }
+
+/* Filler card — buildings with no photo yet */
+.ph { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; color: var(--muted); background: var(--bg-tint); box-shadow: var(--ne-in-sm); font-weight: 600; }
+.ph svg { width: 2.1em; height: 2.1em; opacity: .5; }
+.card__media .ph { width: 100%; height: 100%; font-size: 12.5px; }
+.gallery .ph { width: 100%; height: 340px; font-size: 14px; }
+
+.badge { position: absolute; z-index: 2; font-size: 12px; font-weight: 700; padding: 5px 11px; border-radius: 980px; }
 .badge--units { top: 12px; left: 12px; background: rgba(0,0,0,.72); color: #fff; backdrop-filter: blur(6px); }
 .badge--rating { top: 12px; right: 12px; background: rgba(255,255,255,.92); color: var(--ink); backdrop-filter: blur(6px); display: flex; align-items: center; gap: 3px; box-shadow: 0 4px 14px rgba(0,0,0,.16); }
 .badge--rating .star { color: var(--red); }
-.card__pp { position: absolute; bottom: 12px; left: 12px; background: rgba(255,255,255,.94); backdrop-filter: blur(6px); padding: 7px 13px; border-radius: var(--r-sm); box-shadow: 0 4px 14px rgba(0,0,0,.18); }
+.card__pp { position: absolute; z-index: 2; bottom: 12px; left: 12px; background: rgba(255,255,255,.94); backdrop-filter: blur(6px); padding: 7px 13px; border-radius: var(--r-sm); box-shadow: 0 4px 14px rgba(0,0,0,.18); }
 .card__pp b { font-size: 16px; font-weight: 800; color: var(--ink); }
 .card__pp small { color: var(--muted); font-weight: 500; font-size: 12px; }
 .card__body { padding: 18px 18px 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }

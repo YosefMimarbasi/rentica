@@ -8,6 +8,7 @@
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const money = (n) => (n ? "$" + Number(n).toLocaleString() : "—");
   const cap = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+  const PH_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>`;
 
   const CAT_LABELS = {
     safety: "Safety", location: "Location", communication: "Communication",
@@ -43,7 +44,7 @@
   function gallery(b) {
     const imgs = (b.images || []).filter((src) => !/favicon/i.test(src));
     if (!imgs.length) {
-      return `<div class="gallery gallery--single"><div class="ph" style="display:grid;place-items:center;height:340px;background:var(--bg-tint);color:var(--muted-2)">No photos yet</div></div>`;
+      return `<div class="gallery gallery--single"><div class="ph">${PH_ICON}No photos yet</div></div>`;
     }
     LB.imgs = imgs;
     const show = imgs.slice(0, 5);

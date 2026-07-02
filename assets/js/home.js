@@ -9,6 +9,7 @@
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const money = (n) => (n ? "$" + Number(n).toLocaleString() : null);
+  const PH_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>`;
 
   let DATA = null;
   let ALL = [];
@@ -161,7 +162,7 @@
     const tot = b.price_min;
     const img = b.img && !/favicon/i.test(b.img)
       ? `<img src="${esc(b.img)}" loading="lazy" alt="${esc(b.address)}" onerror="this.parentNode.innerHTML='<div class=ph>No photo</div>'">`
-      : '<div class="ph">No photo yet</div>';
+      : `<div class="ph">${PH_ICON}No photo yet</div>`;
     const unitsBadge = b.num_units > 1
       ? `<span class="badge badge--units">${b.num_units} units</span>` : "";
     const ratingBadge = b.rating
